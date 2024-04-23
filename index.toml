@@ -1010,8 +1010,8 @@ hash = "4d92b82e85a5f1b0d6ec9650691ad5d3174d49129cb400004532b2a79b80b205"
 metafile = true
 
 [[files]]
-file = "mods/blahaj.pw.toml"
-hash = "c16896f122ed1af19e0d32cc943760968c716c1e51f147b8f462f10158d56987"
+file = "mods/blahaj_fabric.pw.toml"
+hash = "698b252e486fbde6c5550e8a9aa519d3150c3073d11a32892c9241681818b9ce"
 metafile = true
 
 [[files]]
