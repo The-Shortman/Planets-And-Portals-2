@@ -1,0 +1,1081 @@
+{
+	id: "0CE07FC6A3ABE4A7"
+	group: "10F9080F1B08EC96"
+	order_index: 0
+	filename: "yttr"
+	title: "Yttr"
+	icon: "yttr:logo"
+	subtitle: ["The power of the Void"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Rich iron ore"
+			icon: "yttr:raw_gadolinite"
+			x: -8.0d
+			y: -1.5d
+			subtitle: "This must contain more valuable resources..."
+			description: [
+				"Gadolinite is extremely rich in iron, and makes a great early game source of iron."
+				""
+				"It can, however, also be refined into a more valuable substance..."
+			]
+			size: 1.5d
+			id: "30C84CA431A68BDB"
+			tasks: [{
+				id: "36D15725C23F2340"
+				type: "item"
+				item: "yttr:raw_gadolinite"
+			}]
+			rewards: [{
+				id: "28BAFF49843D6779"
+				type: "item"
+				item: "yttr:raw_gadolinite"
+				count: 16
+			}]
+		}
+		{
+			title: "Blasting"
+			x: -8.0d
+			y: 0.0d
+			subtitle: "We need to go hotter"
+			description: [
+				"It appears that a more extreme environment allows me to extract more interesting resources"
+				""
+				"You could also use an Encased Fan from Create blowing lava to bulk blast."
+			]
+			id: "797B8E1F3833E04D"
+			tasks: [{
+				id: "7A6C74514445CAFB"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "79C3085559BFE875"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Yttrium"
+			x: -6.5d
+			y: -0.5d
+			subtitle: "But I liked my iron source :("
+			description: [
+				"Now this is the good stuff."
+				""
+				"Unfortunately you'll have to forego your big iron for now."
+			]
+			dependencies: [
+				"797B8E1F3833E04D"
+				"30C84CA431A68BDB"
+			]
+			id: "7481661DB2192C1F"
+			tasks: [{
+				id: "72BFBA548C41CC80"
+				type: "item"
+				item: "yttr:yttrium_ingot"
+			}]
+			rewards: [{
+				id: "201D0796A947E37F"
+				type: "item"
+				item: "yttr:yttrium_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			subtitle: "Damn this boi THICC"
+			description: ["That's a lot of iron. 9 big iron in a crafting table will return you a whole half stack of iron ingots."]
+			dependencies: ["30C84CA431A68BDB"]
+			id: "68AF3B89EA246B85"
+			tasks: [{
+				id: "68B793620D7C1CF1"
+				type: "item"
+				item: "yttr:xl_iron_ingot"
+			}]
+			rewards: [{
+				id: "13C64F573FAEBABC"
+				type: "item"
+				item: "yttr:xl_iron_ingot"
+				count: 9
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Rolling in it"
+			description: [
+				"While slow, the centrifuge will allow you to extract the most out of your gadolinite."
+				""
+				"Check EMI for the other recipes you can use this thing for!"
+			]
+			dependencies: ["7481661DB2192C1F"]
+			id: "1D117B57BA34AB3E"
+			tasks: [{
+				id: "42D80D9A600EF1F0"
+				type: "item"
+				item: "yttr:centrifuge"
+			}]
+			rewards: [{
+				id: "407051E026FB51EC"
+				type: "item"
+				item: "yttr:raw_gadolinite"
+				count: 4
+			}]
+		}
+		{
+			title: "Neodymium"
+			x: -4.5d
+			y: -1.0d
+			subtitle: "Wow! This is useless!"
+			description: [
+				"Neodymium currently has no use"
+				""
+				"Just cool to have I guess..."
+			]
+			dependencies: ["1D117B57BA34AB3E"]
+			id: "3E559BAEAC59C0D5"
+			tasks: [
+				{
+					id: "0ABE51AF78D015C8"
+					type: "item"
+					item: "yttr:neodymium_dust"
+				}
+				{
+					id: "0B98AA1C958046AE"
+					type: "item"
+					item: "yttr:neodymium_disc"
+				}
+			]
+			rewards: [{
+				id: "1D9172F32E56D17B"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
+			}]
+		}
+		{
+			title: "MORE IRON!"
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Bonus iron? You shouldn't've!"
+			description: ["Oh yeah, this centrifuge is amazing."]
+			dependencies: ["1D117B57BA34AB3E"]
+			id: "55BE5DF44B56280B"
+			tasks: [{
+				id: "2558162ACB135E2D"
+				type: "item"
+				item: "yttr:iron_dust"
+			}]
+			rewards: [{
+				id: "125529CF1CF329C1"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 4
+			}]
+		}
+		{
+			title: "Better yields"
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Now the real stuff happens"
+			dependencies: ["1D117B57BA34AB3E"]
+			id: "0D0A53E480AEC59F"
+			tasks: [{
+				id: "15EFA02C7196EA05"
+				type: "item"
+				item: "yttr:yttrium_dust"
+			}]
+		}
+		{
+			title: "So we can make weapons with this stuff"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Big iron on his hip..."
+			description: [
+				"The Yttric Rifle is an extremely powerful weapon and versatile tool."
+				""
+				"It will allow you to \"crack\" the secrets of the void itself (as well as obliterate anything that looks at you sideways)."
+				""
+				"Careful when charging your shots, as you can 'overload' the rifle, creating more unstable shots, or you can even backfire it, potentially creating lethal circumstances..."
+			]
+			dependencies: [
+				"0D0A53E480AEC59F"
+				"794F601C41B722F8"
+			]
+			id: "18FF605322313EB5"
+			tasks: [{
+				id: "296173A6E791CFCE"
+				type: "item"
+				item: "yttr:rifle"
+			}]
+		}
+		{
+			title: "Nether gating"
+			x: -2.0d
+			y: -5.0d
+			shape: "octagon"
+			subtitle: "To progress further, you must explore the underworld"
+			size: 1.5d
+			id: "794F601C41B722F8"
+			tasks: [{
+				id: "25F7D6DDEDA9FCEB"
+				type: "dimension"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Ammunition"
+			x: -2.0d
+			y: 3.5d
+			subtitle: "I have yet to meet one that can outsmart bullet"
+			description: [
+				"There are 6 ammo types that can be canned in canisters."
+				"Each ammunition does something unique, it helps to have a decent stock on you at all times!"
+				""
+				"For each of these quests to complete, you don't need to fully fill any canister. All will complete once a partially filled canister of any type enters your inventory."
+			]
+			dependencies: ["18FF605322313EB5"]
+			id: "168836033A6F3DFC"
+			tasks: [
+				{
+					id: "4D629CCEA739E89D"
+					type: "item"
+					item: "yttr:can_filler"
+				}
+				{
+					id: "219D74E0736690C3"
+					type: "item"
+					item: "yttr:empty_ammo_can"
+				}
+			]
+			rewards: [{
+				id: "01C871B7EE9B525E"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 4
+			}]
+		}
+		{
+			title: "Portable ammo storage"
+			x: -2.5d
+			y: 5.0d
+			subtitle: "Easy ammo portability"
+			description: ["Shift right click whith this in your hand to put ammo canisters inside. Equip it in your back trinket slot to allow your Rifle to use the ammo stored inside."]
+			dependencies: ["168836033A6F3DFC"]
+			id: "441C3BDE03B2616F"
+			tasks: [{
+				id: "0B8B8C5FC7592402"
+				type: "item"
+				item: "yttr:ammo_pack"
+			}]
+			rewards: [{
+				id: "3E1A1DC5D00C8EC0"
+				type: "item"
+				item: "yttr:empty_ammo_can"
+			}]
+		}
+		{
+			title: "Binding substance"
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Shroomlight"
+			description: ["Glowdamp is required to contain the ammunition in the canisters. Stock up!"]
+			dependencies: ["168836033A6F3DFC"]
+			id: "2AE67F7AB25B5190"
+			tasks: [{
+				id: "3671AD6B803761B4"
+				type: "item"
+				item: "yttr:glowing_gas"
+			}]
+			rewards: [{
+				id: "2C0F9363C8F736A4"
+				type: "item"
+				item: "minecraft:shroomlight"
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			subtitle: "Redstone dust"
+			description: [
+				"Shoots a powerful laser beam."
+				""
+				"Backfiring causes a non-destructive explosion at your location."
+			]
+			dependencies: ["168836033A6F3DFC"]
+			id: "1CCA4CDCF08751E5"
+			tasks: [{
+				id: "2B15D32F83F7433F"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "DAMAGE"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Glowstone dust"
+			description: [
+				"Fires a light source at the surface you hit. More powerful shots make brighter light sources."
+				""
+				"Backfiring sets you on fire and makes you glow."
+			]
+			dependencies: ["168836033A6F3DFC"]
+			id: "5E38B8AE13820F0E"
+			tasks: [{
+				id: "1B8A0A47F2561653"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "LIGHT"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Blaze powder"
+			description: [
+				"Sets the area you hit on fire."
+				""
+				"Backfiring sets you on fire."
+			]
+			dependencies: ["168836033A6F3DFC"]
+			id: "60A6E9176FD5B804"
+			tasks: [{
+				id: "2F6BACE63740712E"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "FIRE"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			subtitle: "Gunpowder"
+			description: [
+				"Portable boom laser. Required to smash bedrock with a bedrock smasher."
+				""
+				"Backfiring will set the area around you on fire and cause a massive destructive explosion."
+			]
+			dependencies: ["168836033A6F3DFC"]
+			id: "271C67ABE1F57741"
+			tasks: [{
+				id: "51B1D65D00680A29"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "EXPLODE"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			subtitle: "Void bucket"
+			description: [
+				"The most dangerous of all ammunition types. Consumes void to fire."
+				""
+				"Capable of clearing and deleting a large amount of blocks in one shot, up to of a radius of 12 at maximum power."
+				"Backfiring will cause a 12-block radius void ball where you are standing."
+				""
+				"Because of the griefing potential, all uses of this are logged and can be undone with the command /yttr:void_undo"
+			]
+			dependencies: [
+				"168836033A6F3DFC"
+				"7AC1DA72AFF1B173"
+			]
+			id: "1EC3D7B6FD79FE2E"
+			tasks: [{
+				id: "7C7C9B9CFAAB270E"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "VOID"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "0DD3A8FEF30FCCFA"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			subtitle: "Chorus fruit"
+			description: [
+				"Teleports you to the crosshair."
+				""
+				"Backfiring will cause you to teleport randomly and explode."
+			]
+			dependencies: ["168836033A6F3DFC"]
+			id: "43D05B37A65A920E"
+			tasks: [{
+				id: "5FF30037402B47DD"
+				type: "item"
+				item: {
+					id: "yttr:ammo_can"
+					Count: 1b
+					tag: {
+						Mode: "TELEPORT"
+						Shots: 1024
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Oh boy"
+			description: [
+				"We're breaking through."
+				""
+				"You need one of these per bedrock you break."
+			]
+			hide_dependency_lines: true
+			dependencies: ["18FF605322313EB5"]
+			id: "6C8B424C6AC43BCD"
+			tasks: [{
+				id: "5BBC9C95F31EA81B"
+				type: "item"
+				item: "yttr:bedrock_smasher"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Break bedrock."
+			description: [
+				"To obtain this, you need to break bedrock that is ABOVE the lowest bedrock layer, and BELOW y=-54"
+				""
+				"Breaking bedrock at the bottom of the world will yield... different results..."
+				""
+				"IMPORTANT INFO:"
+				"In order to break bedrock, your rifle needs to be set to the 'Explode' ammunition."
+				"Timing is key. Your shot needs to be at maximum power (overload it and shoot just before it backfires), and hit the top of the bedrock breaker's plate. Stand well back from the explosion radius."
+			]
+			dependencies: [
+				"271C67ABE1F57741"
+				"6C8B424C6AC43BCD"
+				"18FF605322313EB5"
+			]
+			id: "3AB4BB94E4D534EA"
+			tasks: [{
+				id: "54DC96F2AFB0C6E2"
+				type: "advancement"
+				icon: "minecraft:bedrock"
+				advancement: "yttr:break_bedrock"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "This has fascinating applications"
+			description: ["Smashed bedrock can be mined with a diamond pickaxe. It will drop bedrock shards upon being mined."]
+			dependencies: ["3AB4BB94E4D534EA"]
+			id: "34789E603CBAD7ED"
+			tasks: [{
+				id: "02A0BBC7928B1474"
+				type: "item"
+				item: "yttr:bedrock_shard"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Pressurised abyss."
+			description: [
+				"Turns out that the void actually consists of a dark, incredibly corrosive fluid of sorts that has unique properties."
+				""
+				"Soon you will explore the possibilities that this mysterious substance can provide."
+				""
+				"Tread carefully..."
+			]
+			dependencies: ["3AB4BB94E4D534EA"]
+			id: "678782CE59918AF2"
+			tasks: [{
+				id: "7F01E790BC40A4DB"
+				type: "advancement"
+				advancement: "yttr:open_geyser"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tough armour"
+			x: 1.0d
+			y: -5.0d
+			subtitle: "Bri'ish english jumpscare"
+			description: ["Few things will resist the caustic void, but reinforcing yttrium with bedrock seems to... temporarily do the trick."]
+			dependencies: ["34789E603CBAD7ED"]
+			id: "1DCFCF24C0C00805"
+			tasks: [{
+				id: "7D15D26C60043164"
+				type: "item"
+				item: "yttr:armor_plating"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "Funny trapdoor"
+			description: ["Place this near a void geyser and hold shift while wearing a full diving suit to dive into the void."]
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "2D05C0316587AA06"
+			tasks: [{
+				id: "22E73A1C5DDCFD12"
+				type: "item"
+				item: "yttr:diving_plate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "49E7684B5890B7AA"
+			tasks: [{
+				id: "5027084E8A806F74"
+				type: "item"
+				item: {
+					id: "yttr:suit_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "0548244A910AFC58"
+			tasks: [{
+				id: "0F679D9565869086"
+				type: "item"
+				item: {
+					id: "yttr:suit_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "59D3BFF569ACDE1D"
+			tasks: [{
+				id: "51FDF57329736381"
+				type: "item"
+				item: {
+					id: "yttr:suit_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "40CA227100203E41"
+			tasks: [{
+				id: "6383807029448E98"
+				type: "item"
+				item: {
+					id: "yttr:suit_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "4F4316F8C5B8F66D"
+			tasks: [{
+				id: "72DE0C7079CC2BF2"
+				type: "item"
+				item: "yttr:glassy_void"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			subtitle: "Don't jump in without prepping!"
+			description: [
+				"Load it with a solid fuel and glowstone dust to fuel the suit."
+				""
+				"Oxygen will refill over time while the suit is in the station."
+				""
+				"Hull can be repaired with reinforced armour plates."
+			]
+			dependencies: ["1DCFCF24C0C00805"]
+			id: "78735735E5940F9E"
+			tasks: [{
+				id: "022FA82A9B6BFEC4"
+				type: "item"
+				item: "yttr:suit_station"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Dive."
+			description: [
+				"Watch your oxygen and fuel! The void is not kind to careless individuals."
+				""
+				"Geysers can be located while in the void, keep an eye on the pressure meter in the bottom left of the travel GUI."
+				""
+				"It is recommended that you discover the geyser by visiting it in the overworld first, though!"
+			]
+			dependencies: [
+				"678782CE59918AF2"
+				"2D05C0316587AA06"
+			]
+			id: "24396840A54D862B"
+			tasks: [{
+				id: "2D7CDF708315363E"
+				type: "advancement"
+				advancement: "yttr:dive"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "Caustic substance"
+			description: [
+				"Incredibly dangerous. Handle with care."
+				""
+				"Void has very useful applications..."
+			]
+			dependencies: ["678782CE59918AF2"]
+			id: "7AC1DA72AFF1B173"
+			tasks: [{
+				id: "468CE97A0D20182A"
+				type: "item"
+				item: "yttr:void_bucket"
+			}]
+		}
+		{
+			title: "Abominations"
+			icon: "yttr:aware_hopper"
+			x: -8.0d
+			y: 2.0d
+			subtitle: "You're a terrible person"
+			description: [
+				"Abominations are 'machines' engineered from the disembodied body parts of intelligent creatures."
+				""
+				"You, as the industrial powerhouse that you are, will not allow your morals to get the best of you."
+				""
+				"As these aren't actually that useful, you can check the Yttr wiki for their fully detailed functions. They won't be listed here."
+			]
+			dependencies: ["7481661DB2192C1F"]
+			id: "0F3A87AEE9A6FC91"
+			tasks: [{
+				id: "7D82B74CBAF52B3D"
+				type: "checkmark"
+				title: "Abominations"
+			}]
+		}
+		{
+			title: "Essential Abomination Crafting Kit"
+			x: -8.0d
+			y: 3.5d
+			subtitle: "(Trademarked)"
+			description: [
+				"The snare allows you to capture entities and blocks for a certain amount of time."
+				""
+				"Depending on the size, hostility, and health of a mob determines how long the snare will hold."
+				"E.g. a chicken can be held indefinitely, but a wither can't even be held for one second."
+				"Mobs will behave as if you attacked them after escaping the snare, so be ready to deal with the heavier payloads once they flee the snare."
+				""
+				"Snaring blocks can be done with Shift + RMB. All vanilla tile entities can be held indefinitely in the snare."
+				""
+				"The shears are mostly a crafting ingrdient, but can also be used as more durable vanilla shears."
+			]
+			dependencies: ["0F3A87AEE9A6FC91"]
+			id: "3B9683EEA528BBB0"
+			tasks: [
+				{
+					id: "64562D5D579394E0"
+					type: "item"
+					item: "yttr:snare"
+				}
+				{
+					id: "321C721B378E07C2"
+					type: "item"
+					item: {
+						id: "yttr:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			subtitle: "Autocrafting at its most horrifying"
+			description: ["Outclassed by AE2 autocrafting, but still."]
+			dependencies: ["3B9683EEA528BBB0"]
+			id: "74B6C5E70C2DB3F5"
+			tasks: [{
+				id: "7062DA7E90EF3437"
+				type: "item"
+				item: "yttr:aware_hopper"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			subtitle: "Block breaker"
+			description: ["Outclassed by the mechanical drill and annihilation planes, but still."]
+			dependencies: ["3B9683EEA528BBB0"]
+			id: "11B32E9CB884D155"
+			tasks: [{
+				id: "71AFA16E8E776C5E"
+				type: "item"
+				item: "yttr:screeper_nest"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			subtitle: "Right handed"
+			description: [
+				"95% of skeletons are right handed."
+				""
+				"Sorts your items for you. Outclassed by AE2 and Create, but still."
+			]
+			dependencies: ["3B9683EEA528BBB0"]
+			id: "2DF6614C98B04B26"
+			tasks: [{
+				id: "5F25D537EA5F05B8"
+				type: "item"
+				item: "yttr:skeletal_sorter_right_handed"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			subtitle: "Left handed"
+			description: [
+				"5% of skeletons are left handed."
+				""
+				"Sorts your items for you. Outclassed by AE2 and Create, but still."
+			]
+			dependencies: ["3B9683EEA528BBB0"]
+			id: "11228BA7DD6C3599"
+			tasks: [{
+				id: "0EA17D09A2900BAF"
+				type: "item"
+				item: "yttr:skeletal_sorter_left_handed"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			subtitle: "Block placer"
+			description: ["Outclassed by deployers and formation planes, but still."]
+			dependencies: ["3B9683EEA528BBB0"]
+			id: "46B1CB6A37F5B829"
+			tasks: [{
+				id: "74404EC9071D3D5E"
+				type: "item"
+				item: "yttr:transfungus"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Travel 5k blocks through the void."
+			dependencies: ["24396840A54D862B"]
+			id: "089AB6FFE8FBD42F"
+			tasks: [{
+				id: "78CD07D5734BA364"
+				type: "advancement"
+				advancement: "yttr:dive_far"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			subtitle: "You call that a knife?"
+			dependencies: ["4F4316F8C5B8F66D"]
+			id: "42F8197666EDEA71"
+			tasks: [{
+				id: "227FD908F8AE2921"
+				type: "item"
+				item: {
+					id: "yttr:cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			subtitle: "Bypass-any-wall-inator!"
+			description: ["This allows you to punch a temporary 3x3 tunnel in a wall. Don't suffocate!"]
+			dependencies: ["4F4316F8C5B8F66D"]
+			id: "67E04311761FBDB4"
+			tasks: [{
+				id: "794237E6E261C7D0"
+				type: "item"
+				item: "yttr:effector"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			subtitle: "THAT... is a knife."
+			dependencies: ["42F8197666EDEA71"]
+			id: "7EE38F33ABEA1A50"
+			tasks: [{
+				id: "1F4738B1790A243B"
+				type: "item"
+				item: {
+					id: "yttr:reinforced_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "Reliable vertical item transport"
+			description: [
+				"Chutes can be used to drop items vertically with consistent precision and no initial velocity."
+				""
+				"Can also be used in tandem with a levitation chamber to float items upwards!"
+				""
+				"Placing a stair at the mouth of the chute will cause items to be nudged in the direction of the step."
+			]
+			dependencies: ["7481661DB2192C1F"]
+			id: "7563D3EFBF215A00"
+			tasks: [{
+				id: "25E2AF0255628778"
+				type: "item"
+				item: "yttr:chute"
+			}]
+		}
+		{
+			title: "Objectively better hoppers"
+			x: -5.0d
+			y: 3.5d
+			subtitle: "Stop, flop, drop"
+			description: [
+				"The dopper is a dual output hopper."
+				""
+				"The flopper is a sideways hopper."
+				""
+				"The levitation chamber sends items upwards."
+			]
+			dependencies: ["7563D3EFBF215A00"]
+			id: "0DE253E97E7686FB"
+			tasks: [
+				{
+					id: "0A1D043B330FF449"
+					type: "item"
+					item: "yttr:dopper"
+				}
+				{
+					id: "6C09F4790E5EFCCE"
+					type: "item"
+					item: "yttr:flopper"
+				}
+				{
+					id: "1D81D32A88726051"
+					type: "item"
+					item: "yttr:levitation_chamber"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "There is in fact more"
+			dependencies: ["794F601C41B722F8"]
+			id: "494BEC70CFD91ED1"
+			tasks: [{
+				id: "4AADCD2EEF069C99"
+				type: "advancement"
+				advancement: "yttr:enter_scorched_summit"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "163F3C98DD21A284"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 16
+			}]
+		}
+		{
+			title: "Luxury apartment"
+			x: -5.0d
+			y: -5.0d
+			subtitle: "Find a hanging house in the scorched terminus"
+			dependencies: ["494BEC70CFD91ED1"]
+			hide: true
+			hide_text_until_complete: true
+			invisible_until_tasks: 1
+			hide_details_until_startable: true
+			id: "7A9A6151F80B4BB9"
+			tasks: [
+				{
+					id: "259EDA8218F9384C"
+					type: "advancement"
+					advancement: "yttr:levitation_in_scorched"
+					criterion: ""
+				}
+				{
+					id: "4967A8CC8EF7D59A"
+					type: "advancement"
+					advancement: "yttr:find_terminus_house"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "6A984EB9A013E9E5"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			subtitle: "Lost to the ages"
+			description: ["Discover a forgotten wasteland"]
+			hide: true
+			invisible: true
+			id: "424A81A527278922"
+			tasks: [{
+				id: "077673D6834B4A69"
+				type: "advancement"
+				advancement: "yttr:enter_wasteland"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["424A81A527278922"]
+			invisible: true
+			id: "0643CEC3FDC82F59"
+			tasks: [{
+				id: "4738E15A0BDDD59D"
+				type: "advancement"
+				advancement: "yttr:break_ruined"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			subtitle: "Curious artifact"
+			invisible: true
+			id: "42D5455B1AAFEB7F"
+			tasks: [{
+				id: "607213CC780AA913"
+				type: "advancement"
+				advancement: "yttr:break_root_of_continuity"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			subtitle: "It feels warm..."
+			dependencies: ["42D5455B1AAFEB7F"]
+			id: "3B06DE36DE0E7A3F"
+			tasks: [{
+				id: "1D7287774787564F"
+				type: "item"
+				item: "yttr:drop_of_continuity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["3B06DE36DE0E7A3F"]
+			id: "650EF62678240EBE"
+			tasks: [{
+				id: "61FD0ED17BFC53A8"
+				type: "item"
+				item: "yttr:projector"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["3B06DE36DE0E7A3F"]
+			id: "71165372F0FC90D3"
+			tasks: [{
+				id: "5194E306E46D977D"
+				type: "item"
+				item: "yttr:shifter"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
