@@ -1,0 +1,536 @@
+{
+	id: "7BA8DC4F7B7A26C8"
+	group: "7623A50E7BD0DC72"
+	order_index: 0
+	filename: "basic_beginnings"
+	title: "Basic Beginnings"
+	icon: {
+		id: "minecraft:wooden_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["We need to start somewhere"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Fists of steel"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Get logged up"
+			description: ["Yeah"]
+			size: 1.5d
+			id: "1835C5497ECB6DFC"
+			tasks: [{
+				id: "612A0511F3741B6B"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F9B2273AC591613"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 8
+				}
+				{
+					id: "5DC6EF475FFC82A0"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+					count: 8
+				}
+				{
+					id: "5F7E94A301560FF3"
+					type: "item"
+					item: "minecraft:birch_sapling"
+					count: 8
+				}
+				{
+					id: "3C01BA415EBE15FC"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+					count: 8
+				}
+				{
+					id: "3D9FCCC1FB10C408"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+					count: 8
+				}
+				{
+					id: "59DDF7275879EAA9"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Oh boy its the uh workbench thing"
+			dependencies: ["1835C5497ECB6DFC"]
+			id: "59026BE843FFB8B1"
+			tasks: [{
+				id: "6780DD17FD0171EE"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "5C6856311A7BB381"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "664E1176E8108BA4"
+					type: "item"
+					item: "minecraft:torch"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Cobblestone"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Cobbelston"
+			description: ["Have some food, we don't want you getting hungry while mining, do we?"]
+			dependencies: ["59026BE843FFB8B1"]
+			id: "07694B8BEB4D293D"
+			tasks: [{
+				id: "11EA0358B562D3C4"
+				type: "item"
+				title: "Any #c:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:cobblestone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "313F2F6E8F7FA1EB"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["07694B8BEB4D293D"]
+			size: 1.5d
+			id: "2CE8EEC57DEE17DE"
+			tasks: [{
+				id: "46E337FF7C1775AD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["2CE8EEC57DEE17DE"]
+			size: 1.5d
+			id: "3EA3757BEEC97823"
+			tasks: [{
+				id: "420CF15096202119"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "Unlocks the main 'Yttr' questline"
+			dependencies: ["3EA3757BEEC97823"]
+			id: "53BD1DCCFC702DF6"
+			tasks: [{
+				id: "0E660A1A7E0B1C38"
+				type: "item"
+				item: "yttr:raw_gadolinite"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Dear God..."
+			description: [
+				"There's more..."
+				""
+				"NO..."
+				""
+				"It contains... air - you haven't put anything in it yet go get some water or something"
+			]
+			dependencies: ["2CE8EEC57DEE17DE"]
+			id: "04335768DE0106EC"
+			tasks: [{
+				id: "0F65DA3427C11256"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Zinky kinky (kill me)"
+			description: ["Iron nugget alternative in your andesite alloy for now, it gets much more useful later on :)"]
+			dependencies: ["3EA3757BEEC97823"]
+			id: "55F8ACA0B50C5CD3"
+			tasks: [{
+				id: "028B1FBBF4E76739"
+				type: "item"
+				item: "create:raw_zinc"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "Unlocks the main 'Create' questline"
+			description: ["Andesite alloy is your gateway into the world of industry"]
+			dependencies: ["2CE8EEC57DEE17DE"]
+			id: "75322F887FB9503D"
+			tasks: [{
+				id: "2182FB4DF47D0D77"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "4AAE84378558F536"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			title: "Infernal Exploits"
+			icon: "minecraft:netherrack"
+			x: 7.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Visit the Nether"
+			dependencies: ["3EA3757BEEC97823"]
+			size: 1.5d
+			id: "45E1E794A9268D25"
+			tasks: [{
+				id: "50E36A653A2D619C"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["3EA3757BEEC97823"]
+			id: "5A1921BC15479A6C"
+			tasks: [{
+				id: "11DBA6AF3A9060A7"
+				type: "item"
+				item: {
+					id: "minecraft:iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["3EA3757BEEC97823"]
+			id: "555F829BFCFC1652"
+			tasks: [{
+				id: "52E3C160EF18B62E"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["3EA3757BEEC97823"]
+			id: "73AF93CBA93C8A60"
+			tasks: [{
+				id: "2B1A371CAB71F47A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["3EA3757BEEC97823"]
+			id: "181FEC809DE779A3"
+			tasks: [{
+				id: "5828A3A4A76D64BD"
+				type: "item"
+				item: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Jackpot"
+			description: ["You might want to invest in a large drilling contraption, you'll need quite a few of these"]
+			dependencies: ["2CE8EEC57DEE17DE"]
+			size: 1.5d
+			id: "034D60FD5DAC54E9"
+			tasks: [{
+				id: "7A61EA8A58576C4B"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "2244726C04B63A4B"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 32
+			}]
+		}
+		{
+			title: "Boating"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Boaty McBoatface my beloved"
+			dependencies: ["04335768DE0106EC"]
+			id: "389C63EF7DD12234"
+			tasks: [{
+				id: "64F18D49A0C6D38E"
+				type: "item"
+				title: "Any #minecraft:boats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Structure finder"
+			dependencies: ["389C63EF7DD12234"]
+			id: "4ECCFDEC98EEEF1B"
+			tasks: [{
+				id: "65BE30C4C4B053F2"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Biome finder"
+			dependencies: ["389C63EF7DD12234"]
+			id: "748132CDB99C88CF"
+			tasks: [{
+				id: "1982FF8D08A9A302"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Immersive Aircraft"
+			x: -7.0d
+			y: -1.5d
+			subtitle: "Take to the skies!"
+			description: ["Immersive Aircraft will allow you to travel vast distances in no time!"]
+			dependencies: ["389C63EF7DD12234"]
+			id: "3B0630534480FAD8"
+			tasks: [{
+				id: "2EF2283D283BEF94"
+				type: "item"
+				item: "immersive_aircraft:hull"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["034D60FD5DAC54E9"]
+			size: 1.5d
+			id: "4F39C38E47E8F175"
+			tasks: [{
+				id: "0B4D39DEFC223DA4"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["4F39C38E47E8F175"]
+			id: "345391340A1E24F5"
+			tasks: [{
+				id: "62F65B5D0485922F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["4F39C38E47E8F175"]
+			id: "7341D99B2255A272"
+			tasks: [{
+				id: "2C25DA2B76B2F106"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["4F39C38E47E8F175"]
+			id: "3C139B4CB00F1148"
+			tasks: [{
+				id: "70CC0DA3E6A33B6F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["4F39C38E47E8F175"]
+			id: "2581F651959EAD21"
+			tasks: [{
+				id: "3F79B52AFCBE02F1"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			id: "36B3F489F41FA340"
+			tasks: [{
+				id: "5C8AAA9BF594BF5E"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			dependencies: ["3B0630534480FAD8"]
+			id: "07B25B23E8BDC403"
+			tasks: [{
+				id: "2FBC2313B1D1E79B"
+				type: "item"
+				item: "immersive_aircraft:biplane"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["3B0630534480FAD8"]
+			id: "21842C12AB2DEE8E"
+			tasks: [{
+				id: "62886B916692E3B1"
+				type: "item"
+				item: "immersive_aircraft:quadrocopter"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["3B0630534480FAD8"]
+			id: "5DD43D0163452C88"
+			tasks: [{
+				id: "5C0D41D5A4E5CF14"
+				type: "item"
+				item: "immersive_aircraft:airship"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["5DD43D0163452C88"]
+			id: "454AEA8C93BFDEAD"
+			tasks: [{
+				id: "2E91C0C2F8D70A8F"
+				type: "item"
+				item: "immersive_aircraft:cargo_airship"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,864 @@
+{
+	id: "72EA05F38E8D581C"
+	group: "7623A50E7BD0DC72"
+	order_index: 0
+	filename: "ad_astra"
+	title: "Astrogenesis"
+	icon: "ad_astra:moon_globe"
+	subtitle: ["That's one small step for a man..."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ad Astra"
+			x: -10.5d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "To the stars!"
+			description: [
+				"With sturdy sheets, you can construct a heat shield to withstand the super-hot temperatures on escape and re-entry."
+				""
+				"It also makes a great work surface!"
+			]
+			dependencies: ["5F63BC3B13248EEA"]
+			size: 2.0d
+			id: "5C52B5F9DC57BF4E"
+			tasks: [{
+				id: "55E532F97E748C62"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			dependencies: ["5C52B5F9DC57BF4E"]
+			id: "739EDE6DF925A9FC"
+			tasks: [{
+				id: "412ADC9A681E1138"
+				type: "item"
+				item: "ad_astra:compressor"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			subtitle: "Basic power generation"
+			dependencies: ["5C52B5F9DC57BF4E"]
+			optional: true
+			id: "13757848D6662417"
+			tasks: [{
+				id: "3456E8609AE683BD"
+				type: "item"
+				item: "ad_astra:coal_generator"
+			}]
+		}
+		{
+			title: "Superheating"
+			icon: "create:blaze_burner"
+			x: -8.0d
+			y: -1.0d
+			subtitle: "A quicker way to press your metals"
+			description: [
+				"Check the recipes in EMI for a faster way to make steel plates!"
+				""
+				"There's even a way to automate iron plates easily, and all other Ad Astra metals!"
+			]
+			dependencies: ["739EDE6DF925A9FC"]
+			id: "01C8FC98B7140788"
+			tasks: [{
+				id: "0DE06A09287BFAEF"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: [
+				"739EDE6DF925A9FC"
+				"5BE244C38B38A462"
+			]
+			id: "428A4C1E3137C231"
+			tasks: [{
+				id: "5FBE33D4AB6ADC69"
+				type: "item"
+				item: "ad_astra:steel_plate"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			subtitle: "Don't steel my idea for a joke"
+			description: ["This now requires coal in a superheated basin :)"]
+			dependencies: ["5C52B5F9DC57BF4E"]
+			id: "0F6EB5004BEE0A32"
+			tasks: [{
+				id: "5BE244C38B38A462"
+				type: "item"
+				item: "ad_astra:steel_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Power transfer"
+			dependencies: ["428A4C1E3137C231"]
+			id: "7729A9CF24EEB701"
+			tasks: [{
+				id: "49F799C3AF859922"
+				type: "item"
+				item: "ad_astra:steel_cable"
+			}]
+		}
+		{
+			icon: "create:mechanical_harvester"
+			x: -15.5d
+			y: -1.5d
+			subtitle: "You're gonna need a lot of stuff to get to space"
+			dependencies: ["55E532F97E748C62"]
+			size: 1.5d
+			id: "6187450F69FF780D"
+			tasks: [{
+				id: "07D46B5B31617DDD"
+				type: "checkmark"
+				title: "Astrogenesis Recommended Automations"
+			}]
+		}
+		{
+			icon: "minecraft:sugar_cane"
+			x: -15.5d
+			y: 0.0d
+			subtitle: "Sugar cane piston observer farms are sooo 2016"
+			description: ["Use Create's mechanical harvesters instead!"]
+			dependencies: ["6187450F69FF780D"]
+			id: "00266BCE555B87F3"
+			tasks: [
+				{
+					id: "2EF3D5C3A2178BE3"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "1B735C0CA56DEA70"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:egg"
+			x: -14.5d
+			y: 0.5d
+			subtitle: "A vanilla chicken farm will do"
+			description: ["Maybe even spruce it up a bit with some fancy Create mechanics!"]
+			dependencies: ["6187450F69FF780D"]
+			id: "6C5C28DB3D26F007"
+			tasks: [
+				{
+					id: "44A2672749369ADE"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "19F51628122729B9"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:sugar"
+			x: -15.5d
+			y: 1.0d
+			subtitle: "Crushing wheels :pray:"
+			description: ["Crushing wheels (or millstones if you're bad at the game) will yield 2-3x more sugar than crafting!"]
+			dependencies: ["00266BCE555B87F3"]
+			id: "5822A5E11A6750DF"
+			tasks: [
+				{
+					id: "1BAE83882FC3DF14"
+					type: "item"
+					item: "minecraft:sugar"
+				}
+				{
+					id: "72FDF008B29743B9"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:netherrack"
+			x: -16.5d
+			y: 0.5d
+			subtitle: "World eating time :yum:"
+			description: [
+				"Disclaimer: Not actually automatable"
+				""
+				"Instead, I'd recommend building a large drill contraption using Create's drills and a rope pulley to collect vast amounts of netherrack."
+			]
+			dependencies: ["6187450F69FF780D"]
+			id: "3AEB17BE5721D19B"
+			tasks: [
+				{
+					id: "273182AD9A425006"
+					type: "item"
+					item: "minecraft:netherrack"
+				}
+				{
+					id: "5F24743D7697CF26"
+					type: "checkmark"
+					title: "Automated(?)"
+				}
+			]
+		}
+		{
+			icon: "create:cinder_flour"
+			x: -15.5d
+			y: 2.5d
+			subtitle: "Preheat the oven to 15,000 °C..."
+			dependencies: [
+				"3AEB17BE5721D19B"
+				"6C5C28DB3D26F007"
+				"5822A5E11A6750DF"
+			]
+			id: "2B42EE75B36D392D"
+			tasks: [
+				{
+					id: "466B5FACBC11A7E3"
+					type: "item"
+					item: "create:cinder_flour"
+				}
+				{
+					id: "31E9EBBEDD955FA2"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:blaze_cake"
+			x: -15.5d
+			y: 4.0d
+			subtitle: "Bon appetit! (Not suitable for human consumption)"
+			description: ["Superheat those blaze burners!"]
+			dependencies: [
+				"2B42EE75B36D392D"
+				"5B1028435D2CBB32"
+			]
+			id: "233DB7D6759E393C"
+			tasks: [
+				{
+					id: "44288748EE65F155"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+				{
+					id: "71D940A02DA753BA"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Lava Source"
+			icon: "minecraft:lava_bucket"
+			x: -14.5d
+			y: 3.0d
+			subtitle: "If you don't have an infinite lava source yet then what are you doing"
+			dependencies: ["07D46B5B31617DDD"]
+			id: "5B1028435D2CBB32"
+			tasks: [
+				{
+					id: "1278C1CAD223AC65"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "3A1499D62DD4889B"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Flammable Log"
+			icon: "minecraft:oak_log"
+			x: -17.5d
+			y: -0.5d
+			subtitle: "\"I'll make a charcoal farm with warped fungus!\""
+			description: ["Don't use nether fungus it doesn't work."]
+			dependencies: ["6187450F69FF780D"]
+			id: "576152D3CF5FB1DF"
+			tasks: [
+				{
+					id: "09688F24D4107C8B"
+					type: "item"
+					title: "Any #minecraft:logs_that_burn"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs_that_burn"
+						}
+					}
+				}
+				{
+					id: "0D6C22B5C57A5F4A"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:charcoal"
+			x: -19.0d
+			y: -0.5d
+			subtitle: "Bulk blasting my beloved"
+			dependencies: ["576152D3CF5FB1DF"]
+			id: "01DDCE633C6766D2"
+			tasks: [
+				{
+					id: "1EF5DD726A8DA784"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+				{
+					id: "19C5773C7A926C42"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:coal"
+			x: -19.0d
+			y: 1.0d
+			subtitle: "A steel works would look great in that untouched valley"
+			description: ["Bulk haunt charcoal"]
+			dependencies: ["01DDCE633C6766D2"]
+			id: "0572380936642D56"
+			tasks: [
+				{
+					id: "3036E263591DC51C"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "040C21D72B876ED3"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:coal_block"
+			x: -18.0d
+			y: 1.5d
+			subtitle: "Excellent fuel source!"
+			description: ["Pack into blocks with a mechanical press and basin"]
+			dependencies: ["0572380936642D56"]
+			id: "4F056242336AF56D"
+			tasks: [
+				{
+					id: "1E4B4BF8519FC483"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "418FDD7D6B67DE77"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:cobblestone"
+			x: -17.5d
+			y: -2.5d
+			subtitle: "Mechanical drills and water streams"
+			description: ["Item spills can easily happen, make sure you have overflow protection!"]
+			dependencies: ["6187450F69FF780D"]
+			id: "2B9FDA4F555FC857"
+			tasks: [
+				{
+					id: "1C6CC72D76AF5499"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "43A68ACEF36510AF"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:gravel"
+			x: -19.0d
+			y: -2.5d
+			subtitle: "Crush cobblestone with crushing wheels or millstones"
+			dependencies: ["2B9FDA4F555FC857"]
+			id: "22AD3A4826A80C65"
+			tasks: [
+				{
+					id: "6F4CA40C31CB89C4"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "1176B83B6C4F7D42"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:iron_nugget"
+			x: -20.5d
+			y: -2.5d
+			subtitle: "Wash gravel with an encased fan"
+			dependencies: ["22AD3A4826A80C65"]
+			id: "71A97D2757D05701"
+			tasks: [
+				{
+					id: "2D6DF30B62B998AF"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "5354D9515AC019CD"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			x: -20.5d
+			y: -0.5d
+			subtitle: "Compact nuggets in a basin to make ingots"
+			dependencies: ["71A97D2757D05701"]
+			id: "019789303330C857"
+			tasks: [
+				{
+					id: "174BC8FB4E794D6B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "08B98D143395A212"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Steel Automation"
+			icon: "ad_astra:steel_ingot"
+			x: -20.5d
+			y: 2.5d
+			subtitle: "The steel industry is here"
+			description: ["Time to irreperably damage the ecosystem."]
+			dependencies: [
+				"019789303330C857"
+				"0572380936642D56"
+			]
+			id: "44EF6994349FADD3"
+			tasks: [
+				{
+					id: "586FEC669619F021"
+					type: "item"
+					item: "ad_astra:steel_ingot"
+				}
+				{
+					id: "67C559A060C1A13A"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 0.0d
+			subtitle: "Heated basin compacting"
+			description: ["Make sure to set your filters so you don't get iron blocks!"]
+			dependencies: ["019789303330C857"]
+			id: "64ECBEA8E71444C6"
+			tasks: [{
+				id: "464320295BF54EA6"
+				type: "item"
+				item: "ad_astra:iron_plate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["428A4C1E3137C231"]
+			id: "705768C5B6ACDEC4"
+			tasks: [{
+				id: "180B8F51193AD623"
+				type: "item"
+				item: "ad_astra:oxygen_loader"
+			}]
+		}
+		{
+			title: "Space Suit"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Goofy-lookin outfit"
+			description: ["Almost ready to set off"]
+			dependencies: ["705768C5B6ACDEC4"]
+			id: "3CEF5D7DB5C68F7A"
+			tasks: [
+				{
+					id: "2975B05CE440EA63"
+					type: "item"
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E7667AD6F28FFE5"
+					type: "item"
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D25E50884310F10"
+					type: "item"
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40F5E9D7906072FA"
+					type: "item"
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0399CC011F1FCDC9"
+					type: "advancement"
+					icon: {
+						id: "ad_astra:tier_1_rocket"
+						Count: 1b
+						tag: { }
+					}
+					advancement: "ad_astra:space_suit"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: [
+				"3CEF5D7DB5C68F7A"
+				"0CBBCE8FE4C7710E"
+				"4C162BEFB19173AA"
+			]
+			id: "4B3DD10CBA373B65"
+			tasks: [{
+				id: "1F062B9CFCFA8BE2"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["5FBE33D4AB6ADC69"]
+			id: "0CBBCE8FE4C7710E"
+			tasks: [{
+				id: "5D87571C8521F5C2"
+				type: "item"
+				item: "ad_astra:launch_pad"
+			}]
+		}
+		{
+			title: "Visit the Moon"
+			x: -2.5d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "That's one small step for a man..."
+			description: [
+				"You are encouraged to set up permanent outposts on planets due to the need for natural resource collection."
+				""
+				"It would be a good idea to invest your desh into an oxygen distributor."
+				""
+				"It would also be a good idea to invest into a processing plant on-planet wherever you're set up."
+				""
+				"Planetary metals are NOT automatable. Your best bet is to construct a world eater out of Create drills."
+			]
+			dependencies: ["4B3DD10CBA373B65"]
+			size: 1.5d
+			id: "4E6CF8568A8A8F37"
+			tasks: [{
+				id: "2B66D9C8E6C77271"
+				type: "dimension"
+				icon: "ad_astra:moon_sand"
+				dimension: "ad_astra:moon"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["4E6CF8568A8A8F37"]
+			id: "49FF008A76994383"
+			tasks: [{
+				id: "699EDF3C4ABDF2FC"
+				type: "item"
+				item: "ad_astra:raw_desh"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "yeah"
+			dependencies: ["4E6CF8568A8A8F37"]
+			id: "0691C92889AAFF8E"
+			tasks: [{
+				id: "52C2E90D8C7507A4"
+				type: "item"
+				item: "ad_astra:cheese"
+			}]
+			rewards: [{
+				id: "57C22CFE836E698E"
+				type: "item"
+				item: "ad_astra:cheese_block"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "'MURICA YEAHHHHH *EAGLE SCREECH*"
+			description: ["i have not been to america"]
+			id: "1EB29F9911CD6173"
+			tasks: [{
+				id: "44094A30F0683211"
+				type: "item"
+				item: "ad_astra:oil_bucket"
+			}]
+			rewards: [{
+				id: "1AA173F118D768F4"
+				type: "item"
+				item: "ad_astra:white_flag"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "\"Not Disabled™\" unlike a certain modpack..."
+			dependencies: [
+				"428A4C1E3137C231"
+				"1EB29F9911CD6173"
+			]
+			id: "0A81524BA148E93E"
+			tasks: [{
+				id: "10FC0ABE41296F48"
+				type: "item"
+				item: "ad_astra:fuel_refinery"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["0A81524BA148E93E"]
+			id: "4C162BEFB19173AA"
+			tasks: [{
+				id: "322F44F25C27F216"
+				type: "item"
+				item: "ad_astra:fuel_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["49FF008A76994383"]
+			id: "0127E340F0FD6B41"
+			tasks: [{
+				id: "3AE5C286AF87AB3F"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["0127E340F0FD6B41"]
+			id: "1F862B2FB417B77A"
+			tasks: [{
+				id: "5EA60CF24708E572"
+				type: "item"
+				item: "ad_astra:desh_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["1F862B2FB417B77A"]
+			id: "50754B0B7A7C85C0"
+			tasks: [{
+				id: "3368304744FA85BE"
+				type: "item"
+				item: "kubejs:ultrapure_desh"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["50754B0B7A7C85C0"]
+			id: "0B5AEC4B5AB77A76"
+			tasks: [{
+				id: "6B0759CEC8B1A319"
+				type: "item"
+				item: "kubejs:ultrapure_desh_block"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.5d
+			dependencies: ["0B5AEC4B5AB77A76"]
+			id: "26236ED95E77FFC9"
+			tasks: [{
+				id: "524B82328BD161A4"
+				type: "item"
+				item: "kubejs:ultrapure_condensed_desh"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			dependencies: ["26236ED95E77FFC9"]
+			id: "1969E1ACAE3BFE77"
+			tasks: [{
+				id: "301605A33F8405FC"
+				type: "item"
+				item: "kubejs:ultrapure_condensed_desh_filter"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.5d
+			subtitle: "Finally, permanent bases"
+			description: [
+				"I would recommend setting up a permanent outpost near your lauch site now, as later on you'll be needing to spend a lot of time here."
+				""
+				"Best to get it out of the way and not have to worry about it."
+			]
+			dependencies: ["1969E1ACAE3BFE77"]
+			id: "71C20C9BBD40EFD4"
+			tasks: [{
+				id: "33077B24F1658C93"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["0127E340F0FD6B41"]
+			id: "667AA5C79BA37F92"
+			tasks: [{
+				id: "3AC99C609E05D907"
+				type: "item"
+				item: "ad_astra:desh_plate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			subtitle: "Keep your base online!"
+			description: [
+				"For Create rotational energy, you can still use windmills and steam boilers!"
+				""
+				"Solar panels generate more energy depending on the planet they're placed on."
+			]
+			dependencies: ["667AA5C79BA37F92"]
+			id: "034985DDA1722A57"
+			tasks: [{
+				id: "5D1BD578C66599AF"
+				type: "item"
+				item: "ad_astra:solar_panel"
+			}]
+		}
+		{
+			title: "Continued in the main \"Yttr\" questline"
+			icon: "yttr:logo"
+			x: -0.75d
+			y: 4.5d
+			shape: "gear"
+			dependencies: ["0127E340F0FD6B41"]
+			size: 1.5d
+			id: "33E02F7B967CA7EA"
+			tasks: [{
+				id: "002F3843A9A0F4FA"
+				type: "checkmark"
+				title: "Finish Chapter"
+			}]
+			rewards: [{
+				id: "7728288C37EFC422"
+				type: "item"
+				item: "ad_astra:earth_globe"
+			}]
+		}
+		{
+			title: "Better power transfer"
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["667AA5C79BA37F92"]
+			id: "0B0276036F467A6C"
+			tasks: [{
+				id: "737D69070213CB11"
+				type: "item"
+				item: "ad_astra:desh_cable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			shape: "gear"
+			subtitle: "Remember your launchpad!"
+			dependencies: [
+				"667AA5C79BA37F92"
+				"0B5EE4C053603F78"
+			]
+			size: 2.0d
+			id: "519FD7DCCFEF677F"
+			tasks: [{
+				id: "3CC093425BBD3C0E"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

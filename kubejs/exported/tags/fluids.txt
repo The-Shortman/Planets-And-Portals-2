@@ -1,0 +1,102 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 20, 2024, 7:48:18 PM
+
+#c:fuel
+- ad_astra:fuel
+- ad_astra:flowing_fuel
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- ad_astra:fuel
+- ad_astra:flowing_fuel
+- ad_astra:oil
+- ad_astra:flowing_oil
+- ad_astra:cryo_fuel
+- ad_astra:flowing_cryo_fuel
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- milk:flowing_milk?
+- milk:still_milk?
+
+#yttr:pure_void
+- yttr:pure_void
+- yttr:flowing_pure_void
+
+#ad_astra:oxygen
+- ad_astra:oxygen
+
+#ae2:blacklisted/annihilation_plane
+
+#c:milk
+- milk:flowing_milk?
+- milk:still_milk?
+
+#c:tea
+- create:flowing_tea
+- create:tea
+
+#create:fan_processing_catalysts/splashing
+- minecraft:water
+- minecraft:flowing_water
+
+#create:fan_processing_catalysts/haunting
+
+#yttr:void
+- yttr:void
+- yttr:flowing_void
+
+#c:water
+- #minecraft:water?
+
+#c:oil
+- ad_astra:oil
+- ad_astra:flowing_oil
+
+#create:fan_processing_catalysts/smoking
+
+#c:lava
+- #minecraft:lava?
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- yttr:core_lava?
+
+#create:diving_fluids
+- #minecraft:water
+
+#create:bottomless/deny
+
+#c:honey
+- create:flowing_honey
+- create:honey
+
+#ad_astra:fuel
+- ad_astra:fuel
+- ad_astra:flowing_fuel
+- #ad_astra:efficient_fuel
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel
+- ad_astra:flowing_cryo_fuel
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#c:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#ad_astra:oil
+- ad_astra:oil
+- ad_astra:flowing_oil
+- techreborn:oil?
+- modern_industrialization:crude_oil?
+- #forge:crude_oil?
+
+#create:fan_processing_catalysts/blasting
+- minecraft:lava
+- minecraft:flowing_lava

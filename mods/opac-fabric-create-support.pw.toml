@@ -1,0 +1,13 @@
+name = "Create Support for Open Parties and Claims"
+filename = "opac-fabric-create-support-mc1.18-mc1.19-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T4Cv5iZq/versions/gtBSrlaf/opac-fabric-create-support-mc1.18-mc1.19-1.6.0.jar"
+hash-format = "sha1"
+hash = "ec7f51b963e3e60eee5abd1556b2e5ce2469f2ad"
+
+[update]
+[update.modrinth]
+mod-id = "T4Cv5iZq"
+version = "gtBSrlaf"

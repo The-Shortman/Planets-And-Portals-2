@@ -1,0 +1,13 @@
+name = "Typewryttr"
+author = "_Shortman"
+version = "dev 1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5fbe8776a2a777098889d3ec3dda00ba7c012c0636c490c08f7018aaf92b3868"
+
+[versions]
+fabric = "0.15.10"
+minecraft = "1.18.2"
