@@ -1,0 +1,13 @@
+name = "SuperMartijn642's Config Lib"
+filename = "supermartijn642configlib-1.1.8a-fabric-mc1.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/YYWuaEEi/supermartijn642configlib-1.1.8a-fabric-mc1.18.jar"
+hash-format = "sha1"
+hash = "4d394521ecca8367f68da7ba9ee6e9d5de92d8b7"
+
+[update]
+[update.modrinth]
+mod-id = "LN9BxssP"
+version = "YYWuaEEi"

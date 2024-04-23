@@ -1,0 +1,13 @@
+name = "Rechiseled: Create"
+filename = "rechiseledcreate-1.0.2-fabric-mc1.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E6867niZ/versions/MHHzYPWL/rechiseledcreate-1.0.2-fabric-mc1.18.jar"
+hash-format = "sha1"
+hash = "7f33198602885ebe2cd8f58cad276e66342d39d7"
+
+[update]
+[update.modrinth]
+mod-id = "E6867niZ"
+version = "MHHzYPWL"

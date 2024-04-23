@@ -1,0 +1,13 @@
+name = "Lootr"
+filename = "lootr-1.18.2-0.3.28.65.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EltpO5cN/versions/w2hEo5la/lootr-1.18.2-0.3.28.65.jar"
+hash-format = "sha1"
+hash = "5149f1134b896c4347af4be4648a69392f761eae"
+
+[update]
+[update.modrinth]
+mod-id = "EltpO5cN"
+version = "w2hEo5la"

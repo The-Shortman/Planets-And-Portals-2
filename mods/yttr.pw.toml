@@ -1,0 +1,13 @@
+name = "Yttr"
+filename = "yttr-7.626+1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZCLrWdGm/versions/cVQNIfxq/yttr-7.626%2B1.18.2.jar"
+hash-format = "sha1"
+hash = "26eefb96a6eb6435fc21ab2ceeac5a52943e1e90"
+
+[update]
+[update.modrinth]
+mod-id = "ZCLrWdGm"
+version = "cVQNIfxq"
