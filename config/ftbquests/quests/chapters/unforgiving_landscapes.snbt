@@ -1,0 +1,357 @@
+{
+	id: "626E9790277B7D8B"
+	group: "7623A50E7BD0DC72"
+	order_index: 1
+	filename: "unforgiving_landscapes"
+	title: "Unforgiving Landscapes"
+	icon: "ad_astra:mars_globe"
+	subtitle: ["Mars is a terrible place to live"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Red Planet"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Welcome to the barren wasteland"
+			dependencies: ["331FC28DE6CCF968"]
+			size: 2.0d
+			id: "630C900C12984103"
+			tasks: [{
+				id: "34464CAAC306ED36"
+				type: "advancement"
+				title: "Land on Mars"
+				icon: "ad_astra:mars_globe"
+				advancement: "ad_astra:mars"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["630C900C12984103"]
+			id: "7EC293F5E238D6C3"
+			tasks: [{
+				id: "44DF6BED380018B5"
+				type: "item"
+				item: "ad_astra:raw_ostrum"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["7EC293F5E238D6C3"]
+			id: "33DE5E3CCA254DC3"
+			tasks: [{
+				id: "7BBA444B084CC3AB"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["33DE5E3CCA254DC3"]
+			size: 1.5d
+			id: "7FF22145F05792C7"
+			tasks: [{
+				id: "7395A7054ECE2CE8"
+				type: "item"
+				item: "ad_astra:ostrum_plate"
+			}]
+		}
+		{
+			title: "Continued in the main 'Yttr' questline"
+			icon: "yttr:logo"
+			x: 3.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["33DE5E3CCA254DC3"]
+			size: 1.5d
+			id: "3967982FE2284B55"
+			tasks: [{
+				id: "3F2081E802F4B578"
+				type: "checkmark"
+				title: "Continued in Yttr"
+			}]
+			rewards: [{
+				id: "6A4E86C4DCB76765"
+				type: "item"
+				item: "ad_astra:mars_globe"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["33DE5E3CCA254DC3"]
+			id: "41D8DF135B0D12B2"
+			tasks: [{
+				id: "32B001357E81F339"
+				type: "item"
+				item: "ad_astra:ostrum_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["The colour scheme changes because its, like, purer or something. Idk."]
+			dependencies: ["41D8DF135B0D12B2"]
+			id: "2D71203C7AA2ADD6"
+			tasks: [{
+				id: "717B70A3E2557B01"
+				type: "item"
+				item: "kubejs:ultrapure_ostrum"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["2D71203C7AA2ADD6"]
+			id: "61170AEEB21DFB6B"
+			tasks: [{
+				id: "44A2569DEEB2420C"
+				type: "item"
+				item: "kubejs:ultrapure_ostrum_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["61170AEEB21DFB6B"]
+			id: "04109BCAC064C93C"
+			tasks: [{
+				id: "4DC377D68C65307B"
+				type: "item"
+				item: "kubejs:ultrapure_condensed_ostrum"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			subtitle: "I'm 90% sure I was high on acetone when making this name"
+			description: ["That's partially an inside joke that like only one other person on this planet will get"]
+			dependencies: ["04109BCAC064C93C"]
+			id: "428568F62FB5DFC0"
+			tasks: [{
+				id: "2F2E660B6C75E164"
+				type: "item"
+				item: "kubejs:ultrapure_condensed_ostrum_condensator"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "Renewable fuel!"
+			description: ["Cryofuel is more efficient than regular fuel, and is 'renewable' (mob drops lol)"]
+			dependencies: ["428568F62FB5DFC0"]
+			id: "6ADA0A217F9F3E0B"
+			tasks: [{
+				id: "2C766FD53085C7EC"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["7FF22145F05792C7"]
+			id: "00A1FF7EEC09BAAF"
+			tasks: [{
+				id: "02F7F85E1CC39C05"
+				type: "item"
+				item: "ad_astra:energizer"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["7FF22145F05792C7"]
+			id: "56E92D7C51B6DD3B"
+			tasks: [{
+				id: "72813B0D3D464C10"
+				type: "item"
+				item: "ad_astra:oxygen_sensor"
+			}]
+		}
+		{
+			title: "Heat-Proofing"
+			x: 11.0d
+			y: 0.0d
+			description: [
+				"Enchantments are kept upon crafting the leggings."
+				""
+				"Nothing else."
+			]
+			dependencies: ["7FF22145F05792C7"]
+			id: "1F5DD8F677DAA936"
+			tasks: [
+				{
+					id: "7B6B36030B3EAA8C"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04BFD697EB900432"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DB10982104F9CC5"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "562124F23D0D89CC"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "NBT Clearing"
+			x: 11.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["7395A7054ECE2CE8"]
+			optional: true
+			can_repeat: true
+			id: "4685B8089D0ADF9A"
+			tasks: [{
+				id: "7DD0681C05F6D8B0"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D768A56AF913B97"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "NBT Clearing"
+			x: 10.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["7395A7054ECE2CE8"]
+			optional: true
+			can_repeat: true
+			id: "2FC8C078F88164AF"
+			tasks: [{
+				id: "50B6CCDAC3011B16"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37D7FFCAF4DBED28"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "NBT Clearing"
+			x: 12.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["7395A7054ECE2CE8"]
+			optional: true
+			can_repeat: true
+			id: "0CAB2242D3543DE6"
+			tasks: [{
+				id: "0F850E87F4CCCF71"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19C09ADA5BB91599"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Remember your launchpad!"
+			dependencies: [
+				"7AB86E94B7AF18BD"
+				"1F5DD8F677DAA936"
+			]
+			size: 2.0d
+			id: "72D1B8A3D12DF417"
+			tasks: [{
+				id: "0ED6F32077B53BE6"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

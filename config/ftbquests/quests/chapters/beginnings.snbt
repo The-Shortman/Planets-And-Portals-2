@@ -1,0 +1,119 @@
+{
+	id: "1FBF969A89DB0F9D"
+	group: ""
+	order_index: 0
+	filename: "beginnings"
+	title: "Welcome"
+	icon: "ad_astra:earth_globe"
+	subtitle: ["A world awaits..."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:dropper"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			subtitle: "Welcome to the Typewryttr modpack!"
+			size: 5.0d
+			id: "1E3087C285714E0A"
+			tasks: [{
+				id: "1821BC0AF3EFD6A4"
+				type: "checkmark"
+				title: "Welcome!"
+			}]
+		}
+		{
+			icon: "minecraft:heart_of_the_sea"
+			x: -4.0d
+			y: 0.0d
+			shape: "heart"
+			dependencies: ["1E3087C285714E0A"]
+			size: 2.0d
+			id: "4406453CF7B21910"
+			tasks: [{
+				id: "54AD944E5C74E192"
+				type: "checkmark"
+				title: "Special thanks"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Quests!"
+			description: ["This questbook will provide you with a general idea of how to progress through the mods."]
+			dependencies: ["1E3087C285714E0A"]
+			id: "379A8AFA8AEEE158"
+			tasks: [{
+				id: "690C3D8983969E48"
+				type: "checkmark"
+				title: "Questline"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			subtitle: "Lab rats"
+			dependencies: ["4406453CF7B21910"]
+			size: 1.5d
+			id: "1C02BE91B69C5AE1"
+			tasks: [{
+				id: "4D82729539CFD2C8"
+				type: "checkmark"
+				title: "Playtesters"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			description: ["Thanks fot the Ultrapure Ostrum Block and Ostrum Condensator texture!"]
+			hide_dependency_lines: true
+			dependencies: ["1C02BE91B69C5AE1"]
+			id: "6FD7BD845893065C"
+			tasks: [{
+				id: "6D52597697478CB1"
+				type: "checkmark"
+				title: "GayGirl_Violet"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["1C02BE91B69C5AE1"]
+			id: "6CD13D644C341087"
+			tasks: [{
+				id: "14EB6F4A04DA8B87"
+				type: "checkmark"
+				title: "Jondude"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			description: ["Thanks for the Ultrapure Desh Block and Desh Filter texture!"]
+			hide_dependency_lines: true
+			dependencies: ["1C02BE91B69C5AE1"]
+			id: "58701B340042FACE"
+			tasks: [{
+				id: "0EBE1BB9625753A2"
+				type: "checkmark"
+				title: "MrRumblz89"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["1C02BE91B69C5AE1"]
+			id: "13E96EB98CCDD799"
+			tasks: [{
+				id: "0EC2CB722EEED562"
+				type: "checkmark"
+				title: "yoperion"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
