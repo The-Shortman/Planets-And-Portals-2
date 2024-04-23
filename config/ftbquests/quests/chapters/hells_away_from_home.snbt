@@ -1,0 +1,42 @@
+{
+	id: "2C441E4B481E596B"
+	group: "7623A50E7BD0DC72"
+	order_index: 2
+	filename: "hells_away_from_home"
+	title: "Hells away from home"
+	icon: "ad_astra:mercury_globe"
+	subtitle: ["Tricky terrain"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "24735ED83197C2FA"
+			tasks: [{
+				id: "6FD856428315A9AF"
+				type: "dimension"
+				title: "Visit Venus"
+				icon: "ad_astra:venus_sandstone"
+				dimension: "ad_astra:venus"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "45091664DD5BD0E4"
+			tasks: [{
+				id: "456FF0545645DB4A"
+				type: "dimension"
+				title: "Visit Mercury"
+				icon: "ad_astra:mercury_stone"
+				dimension: "ad_astra:mercury"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

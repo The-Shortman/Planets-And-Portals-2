@@ -182,6 +182,8 @@
 				"Enchantments are kept upon crafting the leggings."
 				""
 				"Nothing else."
+				""
+				"KubeJS won't be nice to me :("
 			]
 			dependencies: ["7FF22145F05792C7"]
 			id: "1F5DD8F677DAA936"
@@ -336,6 +338,7 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Remember your launchpad!"
+			description: ["It's time to venture to the hellholes that are Venus and Mercury. Both have their own valuable resource that is vital for your continued journey."]
 			dependencies: [
 				"7AB86E94B7AF18BD"
 				"1F5DD8F677DAA936"
