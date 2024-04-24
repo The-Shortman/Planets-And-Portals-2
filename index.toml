@@ -106,7 +106,7 @@ hash = "fc10af848e4a09feaf503f6cc8b4aeeeefec118199f0b33effbbb3ea2adc3416"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "a26c0cb618f500487065dd58482a5da370a84a0cc7ac4dfc84b7c941c73e1bf3"
+hash = "99847780e0bf81ed9c7d571265008ad2eed290b8403d045447560f3d57f4967d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beginnings.snbt"
@@ -117,8 +117,16 @@ file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "2362c5fe44f8cf994660e59e7db135d1e14bb370a5cdd2571acf9b18e1bbb2cb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/hells_away_from_home.snbt"
+hash = "ffaaf6e1c239684156313640fa63a69f2e8cb7d9d71f0d1be6d8299ab7e88603"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/interstallar.snbt"
+hash = "161bb8911ed685750759d7fef6c0bf55ac4660911a855cf29c3a27fb285886d9"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/unforgiving_landscapes.snbt"
-hash = "a7527d06bb94d62b372232146fca24feb12c078dece9cb1070ff266ef5cfe85c"
+hash = "16c80cbc9ca4c8ab59a106336a92ebb8313bb36d92d8acd22f517957871f26f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
@@ -342,7 +350,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yttr.css"
-hash = "f39ba6c4eb6f23a8f5c7b4d86e162a48f8c0104486759274c97766c6f6298f67"
+hash = "6faad62543be309b981131f85ce2223bf61036be28bf6a33b2ca0b42a20efc2f"
 
 [[files]]
 file = "defaultconfigs/ftbultimine/ftbultimine-client.snbt"
@@ -1010,8 +1018,13 @@ hash = "4d92b82e85a5f1b0d6ec9650691ad5d3174d49129cb400004532b2a79b80b205"
 metafile = true
 
 [[files]]
+file = "mods/blahaj.pw.toml"
+hash = "c16896f122ed1af19e0d32cc943760968c716c1e51f147b8f462f10158d56987"
+metafile = true
+
+[[files]]
 file = "mods/blahaj_fabric.pw.toml"
-hash = "698b252e486fbde6c5550e8a9aa519d3150c3073d11a32892c9241681818b9ce"
+hash = "14d139f830df24d0c8396d8556c3369d748b14a8f46b99181e053013204ccca7"
 metafile = true
 
 [[files]]
