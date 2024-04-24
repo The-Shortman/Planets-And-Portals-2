@@ -12,6 +12,8 @@ onEvent('item.registry', event => {
     event.create("ultrapure_condensed_ostrum", "basic").displayName('Ultrapure Condensed Ostrum')
     event.create("ultrapure_condensed_desh_filter", "basic").displayName('Ultrapure Condensed Desh Filter')
     event.create("ultrapure_condensed_ostrum_condensator", "basic").displayName('Ultrapure Condensed Ostrum Condensator')
+    event.create("incomplete_inscriber_press", "basic").displayName('Incomplete Inscriber Press')
+    event.create("incomplete_printed_circuit", "basic").displayName('Incomplete Printed Circuit')
 })
 
 onEvent('block.registry', event => {
@@ -65,6 +67,17 @@ onEvent('worldgen.add', event => {
         	.squared()
             .triangleHeight(0,104)
         ore.size = 16
+    })
+
+    event.addOre((ore) => {
+        ore.id = 'kubejs:mercury_skystone_gen'
+        ore.biomes = ['ad_astra:mercury_deltas']
+        ore.addTarget('#ad_astra:mercury_ore_replaceables', 'ae2:sky_stone_block')
+
+        ore.count([1,3])
+        	.squared()
+            .triangleHeight(0,104)
+        ore.size = 32
     })
 
     // Glacio stone uraninite generator

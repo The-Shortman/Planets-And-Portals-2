@@ -134,9 +134,9 @@ onEvent('recipes', event => {
 	})
 
 	event.recipes.createCompacting(['ad_astra:iron_plate'], ["minecraft:iron_ingot"]).heated()
-	event.recipes.createCompacting(['ad_astra:steel_plate'], ["ad_astra:steel_ingot"]).superheated()
-	event.recipes.createCompacting(['ad_astra:desh_plate'], ["ad_astra:desh_ingot"]).superheated()
-	event.recipes.createCompacting(['ad_astra:ostrum_plate'], ["ad_astra:ostrum_ingot"]).superheated()
+	event.recipes.createCompacting(['ad_astra:steel_plate'], ["ad_astra:steel_ingot"]).heated()
+	event.recipes.createCompacting(['ad_astra:desh_plate'], ["ad_astra:desh_ingot"]).heated()
+	event.recipes.createCompacting(['ad_astra:ostrum_plate'], ["ad_astra:ostrum_ingot"]).heated()
 	event.recipes.createCompacting(['ad_astra:calorite_plate'], ["ad_astra:calorite_ingot"]).superheated()
 
 	////// REPLACEMENTS //////
@@ -306,7 +306,7 @@ onEvent('recipes', event => {
 
 	event.remove({input: 'minecraft:iron_ingot', output: 'ad_astra:steel_ingot'})
 
-	event.recipes.createMixing(['ad_astra:steel_ingot'], ["4x minecraft:coal",'minecraft:iron_ingot']).superheated()
+	event.recipes.createMixing(['ad_astra:steel_ingot'], ["4x minecraft:coal",'minecraft:iron_ingot']).heated()
 
 	event.remove({output: 'ad_astra:oxygen_loader'})
 
@@ -386,6 +386,19 @@ onEvent('recipes', event => {
 	], {
 		A: 'ad_astra:ostrum_plate',
 		B: 'yttr:drop_of_continuity',
+		C: 'ad_astra:engine_frame',
+		D: 'ad_astra:engine_fan'
+	})
+
+	event.remove({output: 'ad_astra:calorite_engine'})
+
+	event.shaped('ad_astra:calorite_engine',[
+		'ABA',
+		' C ',
+		' D '
+	], {
+		A: 'ad_astra:calorite_plate',
+		B: 'ae2:singularity',
 		C: 'ad_astra:engine_frame',
 		D: 'ad_astra:engine_fan'
 	})
