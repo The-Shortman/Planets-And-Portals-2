@@ -385,6 +385,14 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_inscriber_press.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_printed_circuit.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_desh.png"
 hash = "8cbfaddc007a7f786d1f1ac67cc56d5d705dcb4a0fe075f5489fb4d824abe082"
 
@@ -713,12 +721,16 @@ file = "kubejs/exported/tags/worldgen/trunk_placer_type.txt"
 hash = "8428782efdf3d8cc3eedec75c1b2da8def63df901202f15ef2968a273796ae52"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_recipes.js"
+hash = "06043a01f667f993006c2495a700109d64a651a41668d24027c5c2646525e3e8"
+
+[[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "9fa2fe13b8870bd3ddadc531fcd8e0d5121748144a83d2ead8d047341b1516b1"
+hash = "85464e7ac941437d9bbc59d3d5f032968efeaec0027ec652fafeb7fe7d988f2c"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "1cfba6b14c932ce1cbd1c569448960f5f58b461c8e61171f6a26665933b496fb"
+hash = "479f9704cbc4d338e19836246f312b796508613ec6c08c80f8761c3af1d32ac1"
 
 [[files]]
 file = "local/ftbquests/saved/2024-04-20-21-28-45/chapter_groups.snbt"
