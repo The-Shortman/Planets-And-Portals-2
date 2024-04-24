@@ -42,7 +42,7 @@ hash = "8fe721f59a99076cdd26cb9f3ace01cda3ea84a4514d9680c61aa6cccc7f3540"
 
 [[files]]
 file = "config/appliedenergistics2/common.json"
-hash = "aceda6d7b40b367c30b84dc7cfd9ef9d7f73a3e1f807aa73445f079296ea1874"
+hash = "79a2abe6f22bb9a9718121f88a9224ec766f54bd2e336bde8881c943bc444e76"
 
 [[files]]
 file = "config/cardinal-components-api.properties"
@@ -110,7 +110,7 @@ hash = "99847780e0bf81ed9c7d571265008ad2eed290b8403d045447560f3d57f4967d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beginnings.snbt"
-hash = "79a92d7b7f6c92a63bb4d8c6774b3e8868603322f1bb2b57187f10199032d20a"
+hash = "d83677f3a78de9044e7b81b14f44736b35d2f13cb21f3504b9ad2fb3ed472e9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -118,7 +118,7 @@ hash = "2362c5fe44f8cf994660e59e7db135d1e14bb370a5cdd2571acf9b18e1bbb2cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hells_away_from_home.snbt"
-hash = "ffaaf6e1c239684156313640fa63a69f2e8cb7d9d71f0d1be6d8299ab7e88603"
+hash = "ae9fddb26e6f059e2db6c2120c0dde0f92b8967a2d03b28b600c1f52d9715f30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/interstallar.snbt"
@@ -126,11 +126,11 @@ hash = "161bb8911ed685750759d7fef6c0bf55ac4660911a855cf29c3a27fb285886d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/unforgiving_landscapes.snbt"
-hash = "16c80cbc9ca4c8ab59a106336a92ebb8313bb36d92d8acd22f517957871f26f8"
+hash = "b3c76e942ecd3a69c0590442e9fe69928f1b09908a8a9bf21cc94ab6cedd33c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
-hash = "208335823efcd773ba0afebb8b86ad29d97666120068ecf0b24c78f3ef1dcd3c"
+hash = "cdcadda7156457140ac4d368b5ce417f5e86b128a24fafd8a315defe01d0dd57"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

@@ -60,8 +60,8 @@
   },
   "worldGen": {
     "spawnPressesInMeteorites": true,
-    "generateQuartzOre": true,
-    "generateMeteorites": true,
+    "generateQuartzOre": false,
+    "generateMeteorites": false,
     "quartzOresPerCluster": 7,
     "quartzOresClusterAmount": 20,
     "quartzOresBiomeBlacklist_comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
@@ -118,7 +118,7 @@
   "inWorldCrystalGrowth": {
     "_comment": "Settings for in-world growth of crystals.",
     "improvedFluidTag_comment": "A fluid tag that identifies fluids that improve crystal growth speed. Does not affect growth with water/lava.",
-    "improvedFluidTag": "",
+    "improvedFluidTag": "ad_astra:",
     "improvedFluidMultiplier_comment": "The speed multiplier to use when the crystals are submerged in the improved fluid.",
     "improvedFluidMultiplier": 2.0
   }
