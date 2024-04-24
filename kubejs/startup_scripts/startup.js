@@ -12,8 +12,8 @@ onEvent('item.registry', event => {
     event.create("ultrapure_condensed_ostrum", "basic").displayName('Ultrapure Condensed Ostrum')
     event.create("ultrapure_condensed_desh_filter", "basic").displayName('Ultrapure Condensed Desh Filter')
     event.create("ultrapure_condensed_ostrum_condensator", "basic").displayName('Ultrapure Condensed Ostrum Condensator')
-    event.create("incomplete_inscriber_press", "basic").displayName('Incomplete Inscriber Press')
-    event.create("incomplete_printed_circuit", "basic").displayName('Incomplete Printed Circuit')
+    event.create("incomplete_inscriber_press", "create:sequenced_assembly").displayName('Incomplete Inscriber Press')
+    event.create("incomplete_printed_circuit", "create:sequenced_assembly").displayName('Incomplete Printed Circuit')
 })
 
 onEvent('block.registry', event => {
