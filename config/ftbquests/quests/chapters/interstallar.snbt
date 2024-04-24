@@ -1,0 +1,13 @@
+{
+	id: "6898EC13960D3C88"
+	group: "7623A50E7BD0DC72"
+	order_index: 3
+	filename: "interstallar"
+	title: "Interstallar"
+	icon: "ad_astra:glacio_globe"
+	subtitle: ["... one giant leap for mankind."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
