@@ -15,7 +15,7 @@
 			y: 0.0d
 			shape: "octagon"
 			subtitle: "Welcome to the barren wasteland"
-			dependencies: ["331FC28DE6CCF968"]
+			dependencies: ["519FD7DCCFEF677F"]
 			size: 2.0d
 			id: "630C900C12984103"
 			tasks: [{

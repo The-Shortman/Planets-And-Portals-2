@@ -5,14 +5,23 @@
 	filename: "hells_away_from_home"
 	title: "Hells away from home"
 	icon: "ad_astra:mercury_globe"
-	subtitle: ["Tricky terrain"]
+	subtitle: ["The Twins of Death"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
+			x: 2.0d
 			y: -2.0d
 			shape: "octagon"
+			subtitle: "The Romantic"
+			description: [
+				"Venus has gravity very similar to Earth's. That being said, that's practically the only similarity."
+				""
+				"Venus is a desolate wasteland inhabited by dangerous beasts. There is intermittent acid rain that cuts through your space suit, rendering the surface temporarily unihabitable for the duration of the storm."
+				""
+				"It would be wise to set up a habitable outpost near your mining operation."
+			]
+			dependencies: ["72D1B8A3D12DF417"]
 			size: 2.0d
 			id: "24735ED83197C2FA"
 			tasks: [{
@@ -24,9 +33,11 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: -2.0d
 			y: -2.0d
 			shape: "octagon"
+			subtitle: "The Messenger"
+			dependencies: ["72D1B8A3D12DF417"]
 			size: 2.0d
 			id: "45091664DD5BD0E4"
 			tasks: [{
@@ -35,6 +46,43 @@
 				title: "Visit Mercury"
 				icon: "ad_astra:mercury_stone"
 				dimension: "ad_astra:mercury"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["45091664DD5BD0E4"]
+			id: "3AC43414932C23A1"
+			tasks: [{
+				id: "0C266EFA28D28221"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["24735ED83197C2FA"]
+			id: "155BDD6898354359"
+			tasks: [{
+				id: "3C1ED2BED4A3A357"
+				type: "item"
+				item: "ad_astra:raw_calorite"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Always come prepared!"
+			description: ["Make sure you have the Netherite space suit on while exploring these planets."]
+			dependencies: ["72D1B8A3D12DF417"]
+			size: 1.5d
+			id: "704F9D120FB34CEC"
+			tasks: [{
+				id: "4A3609DF6F066D27"
+				type: "checkmark"
+				title: "Proper Protection"
 			}]
 		}
 	]

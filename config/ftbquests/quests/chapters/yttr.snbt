@@ -218,22 +218,24 @@
 			shape: "octagon"
 			subtitle: "The title of this quest is incredibly cringeworthy"
 			description: ["To progress further you must gather resources from both the Underworld and the Heavens."]
+			dependencies: ["4B3DD10CBA373B65"]
 			size: 1.5d
 			id: "794F601C41B722F8"
 			tasks: [
-				{
-					id: "25F7D6DDEDA9FCEB"
-					type: "dimension"
-					title: "Visit the Nether"
-					icon: "minecraft:netherrack"
-					dimension: "minecraft:the_nether"
-				}
 				{
 					id: "07708E24C793B52E"
 					type: "dimension"
 					title: "Visit the Moon"
 					icon: "ad_astra:moon_sand"
 					dimension: "ad_astra:moon"
+				}
+				{
+					id: "47FCB94057D2BAD4"
+					type: "advancement"
+					title: "Visit the Nether"
+					icon: "minecraft:netherrack"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
 				}
 			]
 		}
@@ -971,12 +973,11 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
+			x: 4.0d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "There is in fact more"
 			description: ["But where?"]
-			dependencies: ["794F601C41B722F8"]
 			id: "494BEC70CFD91ED1"
 			tasks: [{
 				id: "4AADCD2EEF069C99"
@@ -993,8 +994,8 @@
 		}
 		{
 			title: "Luxury apartment"
-			x: -5.0d
-			y: -3.0d
+			x: 5.5d
+			y: -1.5d
 			subtitle: "Find a hanging house in the scorched terminus"
 			dependencies: ["494BEC70CFD91ED1"]
 			hide: true
@@ -1024,7 +1025,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.5d
+			y: -3.0d
 			subtitle: "Lost to the ages"
 			description: ["Discover a forgotten wasteland"]
 			hide: true
@@ -1039,7 +1040,7 @@
 		}
 		{
 			x: 5.5d
-			y: -1.5d
+			y: -3.0d
 			subtitle: "I recognise this place..."
 			dependencies: ["424A81A527278922"]
 			invisible: true
@@ -1280,6 +1281,7 @@
 			x: -6.5d
 			y: -5.0d
 			shape: "octagon"
+			subtitle: "Pressurised Inferno"
 			dependencies: ["7AB86E94B7AF18BD"]
 			size: 1.5d
 			id: "3A6070625D079AFF"
@@ -1295,6 +1297,7 @@
 			x: -0.5d
 			y: -5.0d
 			subtitle: "I get the feeling you're unlikely to find a 12 eye portal"
+			description: ["You can find strongholds with the Explorer's Compass if you haven't already."]
 			dependencies: ["331FC28DE6CCF968"]
 			id: "1460D6DFEF176DAD"
 			tasks: [{
@@ -1306,6 +1309,7 @@
 		{
 			x: 1.0d
 			y: -3.0d
+			subtitle: "Interplanetary Power"
 			dependencies: ["34789E603CBAD7ED"]
 			id: "0B5EE4C053603F78"
 			tasks: [{
@@ -1317,7 +1321,8 @@
 		{
 			x: -8.0d
 			y: -5.0d
-			shape: "gear"
+			subtitle: "Rare metallic substance"
+			description: ["Incrediby tough. Refining it in certain ways can allow it to channel the Continuity into practical applications."]
 			dependencies: ["3A6070625D079AFF"]
 			id: "17E26773D4A53294"
 			tasks: [{

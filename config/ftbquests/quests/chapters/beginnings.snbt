@@ -39,8 +39,8 @@
 		}
 		{
 			icon: "ftbquests:book"
-			x: 0.0d
-			y: 3.5d
+			x: 3.5d
+			y: 0.0d
 			subtitle: "Quests!"
 			description: ["This questbook will provide you with a general idea of how to progress through the mods."]
 			dependencies: ["1E3087C285714E0A"]
