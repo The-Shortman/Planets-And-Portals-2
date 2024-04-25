@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "minecraft:dropper"
+			icon: "create:content_observer"
 			x: 0.0d
 			y: 0.0d
 			shape: "heart"
@@ -25,7 +25,7 @@
 		}
 		{
 			icon: "minecraft:heart_of_the_sea"
-			x: -4.0d
+			x: -6.0d
 			y: 0.0d
 			shape: "heart"
 			dependencies: ["1E3087C285714E0A"]
@@ -52,8 +52,10 @@
 			}]
 		}
 		{
+			icon: "create:linked_controller"
 			x: -9.0d
 			y: 0.0d
+			shape: "octagon"
 			subtitle: "Lab rats"
 			dependencies: ["4406453CF7B21910"]
 			size: 1.5d
@@ -65,11 +67,12 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 0.0d
-			description: ["Thanks fot the Ultrapure Ostrum Block and Ostrum Condensator texture!"]
+			x: -5.5d
+			y: -4.5d
+			subtitle: "Playtester and Contributor"
+			description: ["Thanks for the Ultrapure Ostrum Block and Ostrum Condensator texture!"]
 			hide_dependency_lines: true
-			dependencies: ["1C02BE91B69C5AE1"]
+			dependencies: ["52BA2EDC084086E3"]
 			id: "6FD7BD845893065C"
 			tasks: [{
 				id: "6D52597697478CB1"
@@ -79,7 +82,8 @@
 		}
 		{
 			x: -10.5d
-			y: -1.0d
+			y: -0.5d
+			subtitle: "Playtester"
 			hide_dependency_lines: true
 			dependencies: ["1C02BE91B69C5AE1"]
 			id: "6CD13D644C341087"
@@ -90,15 +94,16 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 1.0d
+			x: -6.5d
+			y: -4.5d
+			subtitle: "Playtester and Contributor"
 			description: [
 				"Thanks for the Ultrapure Desh Block and Desh Filter texture!"
 				""
 				"Thanks also for the Croptopia sidequest line!"
 			]
 			hide_dependency_lines: true
-			dependencies: ["1C02BE91B69C5AE1"]
+			dependencies: ["52BA2EDC084086E3"]
 			id: "58701B340042FACE"
 			tasks: [{
 				id: "0EBE1BB9625753A2"
@@ -107,8 +112,9 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 0.0d
+			x: -10.5d
+			y: 0.5d
+			subtitle: "Playtester"
 			hide_dependency_lines: true
 			dependencies: ["1C02BE91B69C5AE1"]
 			id: "13E96EB98CCDD799"
@@ -116,6 +122,21 @@
 				id: "0EC2CB722EEED562"
 				type: "checkmark"
 				title: "yoperion"
+			}]
+		}
+		{
+			icon: "create:wrench"
+			x: -6.0d
+			y: -3.0d
+			shape: "octagon"
+			subtitle: "Sweatshop workers"
+			dependencies: ["4406453CF7B21910"]
+			size: 1.5d
+			id: "52BA2EDC084086E3"
+			tasks: [{
+				id: "30AB5C37219C5F1F"
+				type: "checkmark"
+				title: "Contributors"
 			}]
 		}
 	]

@@ -1,0 +1,16 @@
+{
+	id: "592DBED1CCA82737"
+	group: ""
+	order_index: 2
+	filename: "midgame"
+	title: "Midgame"
+	icon: {
+		id: "ad_astra:tier_2_rocket"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,11 +1,11 @@
 {
 	id: "0CE07FC6A3ABE4A7"
 	group: "10F9080F1B08EC96"
-	order_index: 0
+	order_index: 1
 	filename: "yttr"
 	title: "Yttr"
 	icon: "yttr:logo"
-	subtitle: ["The power of the Void"]
+	subtitle: ["Unlocking The Power of the Void"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -693,9 +693,9 @@
 			description: [
 				"Watch your oxygen and fuel! The void is not kind to careless individuals."
 				""
-				"Geysers can be located while in the void, keep an eye on the pressure meter in the bottom left of the travel GUI."
+				"Geysers 'can' be located while in the void, keep an eye on the pressure meter in the bottom left of the travel GUI. They must be player-made though."
 				""
-				"It is recommended that you discover the geyser by visiting it in the overworld first, though!"
+				"It is however recommended that you discover the geyser by visiting it in the overworld first!"
 			]
 			dependencies: [
 				"678782CE59918AF2"
@@ -1269,6 +1269,8 @@
 		{
 			x: -5.0d
 			y: -5.0d
+			subtitle: "We're going closer"
+			description: ["Some exotic materials form close to the sun. Let's go and find them!"]
 			dependencies: ["3B06DE36DE0E7A3F"]
 			id: "7AB86E94B7AF18BD"
 			tasks: [{
@@ -1310,6 +1312,7 @@
 			x: 1.0d
 			y: -3.0d
 			subtitle: "Interplanetary Power"
+			description: ["Escaping the Earth's gravity well is no easy task."]
 			dependencies: ["34789E603CBAD7ED"]
 			id: "0B5EE4C053603F78"
 			tasks: [{

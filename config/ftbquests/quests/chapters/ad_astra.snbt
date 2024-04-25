@@ -90,7 +90,7 @@
 			x: -10.0d
 			y: -1.5d
 			subtitle: "Don't steel my idea for a joke"
-			description: ["This now requires coal in a superheated basin :)"]
+			description: ["This now requires coal in a heated basin :)"]
 			dependencies: ["5C52B5F9DC57BF4E"]
 			id: "0F6EB5004BEE0A32"
 			tasks: [{
@@ -480,17 +480,25 @@
 			]
 		}
 		{
+			icon: "ad_astra:iron_plate"
 			x: -21.5d
 			y: 0.0d
 			subtitle: "Heated basin compacting"
 			description: ["Make sure to set your filters so you don't get iron blocks!"]
 			dependencies: ["019789303330C857"]
 			id: "64ECBEA8E71444C6"
-			tasks: [{
-				id: "464320295BF54EA6"
-				type: "item"
-				item: "ad_astra:iron_plate"
-			}]
+			tasks: [
+				{
+					id: "464320295BF54EA6"
+					type: "item"
+					item: "ad_astra:iron_plate"
+				}
+				{
+					id: "5A3950F5CD65D078"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -620,7 +628,8 @@
 			tasks: [{
 				id: "2B66D9C8E6C77271"
 				type: "dimension"
-				icon: "ad_astra:moon_sand"
+				title: "Set foot on the Lunar surface"
+				icon: "ad_astra:moon_globe"
 				dimension: "ad_astra:moon"
 			}]
 			rewards: [{

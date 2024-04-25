@@ -1,7 +1,7 @@
 {
 	id: "7D150AC8D1166D3A"
 	group: "10F9080F1B08EC96"
-	order_index: 1
+	order_index: 0
 	filename: "create"
 	title: "Create"
 	icon: "create:flywheel"
@@ -196,6 +196,7 @@
 			icon: "create:goggles"
 			x: -11.0d
 			y: -2.0d
+			shape: "rsquare"
 			subtitle: "Best in game guide ever devised"
 			description: [
 				"Hold 'w' on most Create items to get a detailed guide on most of its functions."
@@ -1513,6 +1514,36 @@
 				id: "0006AABA2840D7D7"
 				type: "item"
 				item: "ad_astra:nasa_workbench"
+			}]
+		}
+		{
+			title: "House builder gun"
+			icon: "create:schematicannon"
+			x: -13.0d
+			y: -3.0d
+			id: "0625CFA53C315767"
+			tasks: [
+				{
+					id: "64942FD48DB0D45D"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "74F88702C6CDE7CB"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "344E41DA1276952C"
+					type: "item"
+					item: "create:schematic_table"
+				}
+			]
+			rewards: [{
+				id: "4A31F98E2D2766C0"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 16
 			}]
 		}
 	]

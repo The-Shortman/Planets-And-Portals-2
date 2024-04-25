@@ -1,0 +1,13 @@
+{
+	id: "38F37200198B7A9B"
+	group: "10F9080F1B08EC96"
+	order_index: 2
+	filename: "ae2"
+	title: "AE2"
+	icon: "ae2:charged_certus_quartz_crystal"
+	subtitle: ["Modular Storage and Crafting Solutions"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

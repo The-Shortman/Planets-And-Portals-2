@@ -1,0 +1,12 @@
+{
+	id: "377AF05607F50FAA"
+	group: ""
+	order_index: 1
+	filename: "earlygame"
+	title: "Earlygame"
+	icon: "minecraft:cobblestone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

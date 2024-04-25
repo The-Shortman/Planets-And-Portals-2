@@ -3,13 +3,14 @@
 	group: "7623A50E7BD0DC72"
 	order_index: 2
 	filename: "hells_away_from_home"
-	title: "Hells away from home"
+	title: "Hells Away From Home"
 	icon: "ad_astra:mercury_globe"
-	subtitle: ["The Twins of Death"]
+	subtitle: ["The Twins of Torture"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Visit Venus"
 			x: 2.0d
 			y: -2.0d
 			shape: "octagon"
@@ -17,7 +18,7 @@
 			description: [
 				"Venus has gravity very similar to Earth's. That being said, that's practically the only similarity."
 				""
-				"Venus is a desolate wasteland inhabited by dangerous beasts. There is intermittent acid rain that cuts through your space suit, rendering the surface temporarily unihabitable for the duration of the storm."
+				"Venus is a desolate wasteland inhabited by dangerous beasts. There is intermittent acid rain that cuts through your space suit, rendering the surface temporarily uninhabitable for the duration of the storm."
 				""
 				"It would be wise to set up a habitable outpost near your mining operation."
 			]
@@ -27,24 +28,30 @@
 			tasks: [{
 				id: "6FD856428315A9AF"
 				type: "dimension"
-				title: "Visit Venus"
-				icon: "ad_astra:venus_sandstone"
+				title: "Brave the crushing atmosphere of Venus"
+				icon: "ad_astra:venus_globe"
 				dimension: "ad_astra:venus"
 			}]
 		}
 		{
+			title: "Visit Mercury"
 			x: -2.0d
 			y: -2.0d
 			shape: "octagon"
 			subtitle: "The Messenger"
+			description: [
+				"Mercury, despite being closer to the Sun that Venus, is a surprisingly pleasant place with your heatproof netherite suit."
+				""
+				"The only thing you really have to worry about is the jagged terrain, but apart from that you should be golden."
+			]
 			dependencies: ["72D1B8A3D12DF417"]
 			size: 2.0d
 			id: "45091664DD5BD0E4"
 			tasks: [{
 				id: "456FF0545645DB4A"
 				type: "dimension"
-				title: "Visit Mercury"
-				icon: "ad_astra:mercury_stone"
+				title: "Get a suntan on Mercury"
+				icon: "ad_astra:mercury_globe"
 				dimension: "ad_astra:mercury"
 			}]
 		}
@@ -62,6 +69,7 @@
 		{
 			x: 4.0d
 			y: -2.0d
+			subtitle: "Superstability"
 			dependencies: ["24735ED83197C2FA"]
 			id: "155BDD6898354359"
 			tasks: [{
@@ -102,9 +110,12 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 6.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Unlocks the Endgame"
 			dependencies: ["552AC822E21EC1EC"]
+			size: 1.5d
 			id: "20A3B13954F4CFB8"
 			tasks: [{
 				id: "6DC43246A316BD14"
@@ -124,10 +135,11 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -2.0d
+			x: -6.0d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "Unlocks the main 'AE2' questline"
+			description: ["Finally, manageable and expansive storage solutions."]
 			dependencies: ["1DEE5AA305C9CA67"]
 			size: 1.5d
 			id: "3E0AD3846760E649"
@@ -138,13 +150,90 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			x: -4.0d
+			y: 0.0d
+			subtitle: "I'm sure you have loads of cobblestone from your mining operations"
+			description: [
+				"In order to go interstellar, we need a big catalyst for our new engine."
+				""
+				"Compressing a ludicrous amount of random stuff should do the trick!"
+			]
+			dependencies: ["3E0AD3846760E649"]
 			id: "3EB9C0AAAD9A164F"
 			tasks: [{
 				id: "239E532CE73DC927"
 				type: "item"
 				item: "ae2:singularity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Beyond Astral"
+			description: [
+				"We're going beyond the solar system."
+				""
+				"Combining Calorite's super-stable structure with a contained singularity, we get exactly what we need."
+			]
+			dependencies: [
+				"20A3B13954F4CFB8"
+				"3EB9C0AAAD9A164F"
+			]
+			id: "719EEEA12C03E864"
+			tasks: [{
+				id: "099CFF3E5643B4E3"
+				type: "item"
+				item: "ad_astra:calorite_engine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			subtitle: "You might need a lot of this later..."
+			description: [
+				"Sky stone generates in large pockets beneath the surface of Mercury. It is not renewable so you might want to consider setting up a mining outpost!"
+				""
+				"Yes, AE2 meteorites are disabled."
+			]
+			dependencies: ["45091664DD5BD0E4"]
+			id: "011F36E5BC4EB86B"
+			tasks: [{
+				id: "03F64B2C6ADE350A"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Remember your launchpad!"
+			dependencies: ["719EEEA12C03E864"]
+			size: 2.0d
+			id: "4D2088EEDD597956"
+			tasks: [{
+				id: "73B9B1D56FD75508"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Continued in the main 'Yttr' questline"
+			icon: "yttr:logo"
+			x: 6.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["552AC822E21EC1EC"]
+			size: 1.5d
+			id: "1C62A32FBED549A4"
+			tasks: [{
+				id: "2F511BDA2DB6371C"
+				type: "checkmark"
+				title: "Continued in Yttr"
 			}]
 		}
 	]
