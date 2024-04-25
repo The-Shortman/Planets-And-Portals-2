@@ -26,6 +26,11 @@
 				advancement: "ad_astra:mars"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "47D401B9FA614D6B"
+				type: "item"
+				item: "ad_astra:moon_globe"
+			}]
 		}
 		{
 			x: 2.0d

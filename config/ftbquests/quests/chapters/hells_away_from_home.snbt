@@ -84,6 +84,68 @@
 				type: "checkmark"
 				title: "Proper Protection"
 			}]
+			rewards: [{
+				id: "6084A57E2FADB2E7"
+				type: "item"
+				item: "ad_astra:mars_globe"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["155BDD6898354359"]
+			id: "552AC822E21EC1EC"
+			tasks: [{
+				id: "1D4C503E867423A5"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["552AC822E21EC1EC"]
+			id: "20A3B13954F4CFB8"
+			tasks: [{
+				id: "6DC43246A316BD14"
+				type: "item"
+				item: "ad_astra:calorite_plate"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["3AC43414932C23A1"]
+			id: "1DEE5AA305C9CA67"
+			tasks: [{
+				id: "3E1BEAE0319E031A"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Unlocks the main 'AE2' questline"
+			dependencies: ["1DEE5AA305C9CA67"]
+			size: 1.5d
+			id: "3E0AD3846760E649"
+			tasks: [{
+				id: "2D68FC2152C8E23F"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			id: "3EB9C0AAAD9A164F"
+			tasks: [{
+				id: "239E532CE73DC927"
+				type: "item"
+				item: "ae2:singularity"
+			}]
 		}
 	]
 	quest_links: [ ]

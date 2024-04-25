@@ -1328,7 +1328,7 @@
 			tasks: [{
 				id: "6E44F95CE1715A49"
 				type: "item"
-				item: "ad_astra:raw_calorite"
+				item: "ad_astra:calorite_ingot"
 			}]
 		}
 	]

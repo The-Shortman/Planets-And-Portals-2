@@ -1,0 +1,443 @@
+{
+	id: "21E618A812613180"
+	group: "59668236CD4B0173"
+	order_index: 0
+	filename: "wonderful_world_of_cooking"
+	title: "Wonderful world of cooking"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "croptopia:tomato"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			description: [
+				"Welcome to this totally not useless questline that i myself MrRumblz89 decided to create"
+				"Sorry for the bad puns -_- "
+			]
+			size: 2.0d
+			id: "6BBB987B30113A76"
+			tasks: [{
+				id: "4DF1790BC4928A51"
+				type: "checkmark"
+				title: "Welcome to Croptopia"
+			}]
+			rewards: [{
+				id: "35CC103DF5DA3DC2"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			title: "Tastyyyy whhhheeaatt"
+			x: 7.5d
+			y: 0.0d
+			description: ["Tastyyy wheeeeaattt"]
+			dependencies: ["47FE8E50322A3634"]
+			id: "7BA8A671C762FAA4"
+			tasks: [{
+				id: "6866EB96DBE79BAF"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			title: "Flour powah!!!"
+			x: 7.5d
+			y: -1.5d
+			description: ["Do not get this confused with the create flour unless you wanna cry"]
+			dependencies: ["7BA8A671C762FAA4"]
+			id: "70F0D75C292FD39A"
+			tasks: [{
+				id: "2E07FCB2E85550E5"
+				type: "item"
+				item: "croptopia:flour"
+			}]
+		}
+		{
+			title: "Are you Bready?"
+			x: 7.5d
+			y: -3.0d
+			description: ["GLUTEN"]
+			dependencies: ["70F0D75C292FD39A"]
+			id: "5B67951F816F0131"
+			tasks: [{
+				id: "0CDBE36911A15599"
+				type: "item"
+				item: "croptopia:dough"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["58A0FE8A38336B8C"]
+			id: "39F375AC45FA03A2"
+			tasks: [{
+				id: "51DC5A8FFFE6C1AA"
+				type: "item"
+				item: "croptopia:frying_pan"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Before you start your cooking journey! you will need equipment to prepare these wonderful delicacies"]
+			dependencies: ["6BBB987B30113A76"]
+			size: 2.0d
+			id: "58A0FE8A38336B8C"
+			tasks: [{
+				id: "15C9BA3D1CE1DFC9"
+				type: "checkmark"
+				title: "Equipment!"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["58A0FE8A38336B8C"]
+			id: "70FB30D065B8CA2A"
+			tasks: [{
+				id: "2EE65202AD07EFBD"
+				type: "item"
+				item: "croptopia:food_press"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["58A0FE8A38336B8C"]
+			id: "0B5B4E321D89CEBC"
+			tasks: [{
+				id: "7091D52D246600F0"
+				type: "item"
+				item: "croptopia:cooking_pot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["58A0FE8A38336B8C"]
+			id: "7080D55F43344A8F"
+			tasks: [{
+				id: "7016C8946B138F87"
+				type: "item"
+				item: "croptopia:knife"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["58A0FE8A38336B8C"]
+			id: "5E2B3A4BE0908E8F"
+			tasks: [{
+				id: "70FE63B6C5D6272D"
+				type: "item"
+				item: "croptopia:mortar_and_pestle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			shape: "gear"
+			dependencies: [
+				"70FB30D065B8CA2A"
+				"7080D55F43344A8F"
+				"0B5B4E321D89CEBC"
+				"39F375AC45FA03A2"
+				"5E2B3A4BE0908E8F"
+			]
+			size: 2.0d
+			id: "21431C77B263EE35"
+			tasks: [{
+				id: "6A733C9DAA44A981"
+				type: "checkmark"
+				title: "Equipment got!"
+			}]
+		}
+		{
+			icon: "minecraft:dirt"
+			x: 5.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["Now your ready to start cooking! A true chef has all his equipment ready before he starts his next masterpiece!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"21431C77B263EE35"
+				"58A0FE8A38336B8C"
+			]
+			size: 2.0d
+			id: "47FE8E50322A3634"
+			tasks: [{
+				id: "129419463988EA3D"
+				type: "checkmark"
+				title: "Rookie Chef"
+			}]
+		}
+		{
+			title: "Now we farm'n"
+			icon: {
+				id: "yttr:brookite_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["7BA8A671C762FAA4"]
+			id: "53D10B4B3DF6FDBB"
+			tasks: [{
+				id: "0B2E8EB1B51A1470"
+				type: "checkmark"
+				title: "Other farmable foods"
+			}]
+		}
+		{
+			title: "au-tomato-ic"
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "5B995A1B39B8564C"
+			tasks: [{
+				id: "7335094304DA80A3"
+				type: "item"
+				item: "croptopia:tomato"
+			}]
+		}
+		{
+			title: "lettuce have it"
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "5771A2051A205A58"
+			tasks: [{
+				id: "0CC196A52EA75D22"
+				type: "item"
+				item: "croptopia:lettuce"
+			}]
+		}
+		{
+			title: "lettuce but saltier"
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["5771A2051A205A58"]
+			id: "1F623F682658737A"
+			tasks: [{
+				id: "4D4922D5F0CF6581"
+				type: "item"
+				item: "croptopia:sea_lettuce"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "164BCEB934C1708A"
+			tasks: [{
+				id: "7119455319B74AE8"
+				type: "item"
+				item: "croptopia:cabbage"
+			}]
+		}
+		{
+			title: "slight leekage"
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "1F5D585FC6B27AC1"
+			tasks: [{
+				id: "685F16EAC37B8013"
+				type: "item"
+				item: "croptopia:leek"
+			}]
+		}
+		{
+			title: "Was gonna put something corny here"
+			x: 7.5d
+			y: 4.0d
+			description: ["but i knew the joke would not pop"]
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "0F2D55A0B07298B7"
+			tasks: [{
+				id: "5AA3700705DA1CF3"
+				type: "item"
+				item: "croptopia:corn"
+			}]
+		}
+		{
+			title: "ogres have layers"
+			x: 8.5d
+			y: 4.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "6737B64A4A25D83F"
+			tasks: [{
+				id: "432A31B3FCB45BBE"
+				type: "item"
+				item: "croptopia:onion"
+			}]
+		}
+		{
+			title: "put a spring in your step"
+			x: 10.0d
+			y: 4.0d
+			dependencies: ["6737B64A4A25D83F"]
+			id: "4674867657CC179E"
+			tasks: [{
+				id: "1F5FE1FE8E0CE731"
+				type: "item"
+				item: "croptopia:greenonion"
+			}]
+		}
+		{
+			title: "How dairy!"
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["7BA8A671C762FAA4"]
+			id: "5E9558B69273E133"
+			tasks: [{
+				id: "5EB5DBA810508EEC"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			title: "Gimme the cheddar!"
+			x: 10.5d
+			y: -1.5d
+			dependencies: [
+				"5E9558B69273E133"
+				"36D26B4C0E5108F6"
+			]
+			id: "48F18E232902805A"
+			tasks: [{
+				id: "1F8AB1C63FC813EB"
+				type: "item"
+				item: "croptopia:cheese"
+			}]
+		}
+		{
+			title: "Don't get Salty now!"
+			x: 9.0d
+			y: -3.0d
+			id: "36D26B4C0E5108F6"
+			tasks: [{
+				id: "5B255FA5EFE45845"
+				type: "item"
+				item: "croptopia:salt"
+			}]
+		}
+		{
+			title: "Don't choke now!"
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["53D10B4B3DF6FDBB"]
+			id: "6069C3C695F40CA1"
+			tasks: [{
+				id: "11301DEE9FBDEC59"
+				type: "item"
+				item: "croptopia:artichoke"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: [
+				"36D26B4C0E5108F6"
+				"70F0D75C292FD39A"
+			]
+			id: "166625E0A101BD8B"
+			tasks: [{
+				id: "79B27D885E68B16C"
+				type: "item"
+				item: "croptopia:noodle"
+			}]
+		}
+		{
+			title: "Milky way"
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["5E9558B69273E133"]
+			id: "023E6D3C9527A1CC"
+			tasks: [{
+				id: "0AB9AA985492B7DE"
+				type: "item"
+				item: "croptopia:milk_bottle"
+			}]
+		}
+		{
+			icon: "minecraft:stone"
+			x: 13.5d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"well done so far! "
+				"You are now ready to make more special dishes that have significant improvements to your hunger"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5B67951F816F0131"
+				"5E9558B69273E133"
+				"6737B64A4A25D83F"
+				"1F623F682658737A"
+				"0F2D55A0B07298B7"
+				"023E6D3C9527A1CC"
+				"48F18E232902805A"
+				"166625E0A101BD8B"
+				"5771A2051A205A58"
+				"4674867657CC179E"
+				"47FE8E50322A3634"
+				"1F5D585FC6B27AC1"
+				"5B995A1B39B8564C"
+				"53D10B4B3DF6FDBB"
+				"36D26B4C0E5108F6"
+				"70F0D75C292FD39A"
+				"164BCEB934C1708A"
+				"6069C3C695F40CA1"
+				"7BA8A671C762FAA4"
+			]
+			size: 2.0d
+			id: "3216F0BB9A3072E5"
+			tasks: [{
+				id: "60FDB34FBD3A6276"
+				type: "checkmark"
+				title: "Intermediate Chef"
+			}]
+			rewards: [{
+				id: "77808E3E4E421980"
+				type: "item"
+				item: "croptopia:potato_soup"
+			}]
+		}
+		{
+			icon: "minecraft:cooked_chicken"
+			x: 17.0d
+			y: 0.0d
+			shape: "heart"
+			dependencies: ["3216F0BB9A3072E5"]
+			size: 2.0d
+			id: "65C1FCBE7F0323B5"
+			tasks: [{
+				id: "63E1981ED3A050F8"
+				type: "checkmark"
+				title: "second tier foods"
+			}]
+		}
+		{
+			icon: "minecraft:bowl"
+			x: 17.0d
+			y: -2.5d
+			dependencies: ["65C1FCBE7F0323B5"]
+			size: 1.5d
+			id: "0B5EEE3A19A5883D"
+			tasks: [{
+				id: "67A3A1208BC47A89"
+				type: "checkmark"
+				title: "Bowl dishes"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

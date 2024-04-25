@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "10F9080F1B08EC96", title: "Technology" }
 		{ id: "7623A50E7BD0DC72", title: "Ad Astra" }
+		{ id: "59668236CD4B0173", title: "Sidequests" }
 	]
 }

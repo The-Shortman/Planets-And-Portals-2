@@ -623,6 +623,11 @@
 				icon: "ad_astra:moon_sand"
 				dimension: "ad_astra:moon"
 			}]
+			rewards: [{
+				id: "5BEE5AB79608DE88"
+				type: "item"
+				item: "ad_astra:earth_globe"
+			}]
 		}
 		{
 			x: -2.5d
@@ -709,6 +714,7 @@
 		{
 			x: -4.0d
 			y: 4.5d
+			subtitle: "Compress into block form"
 			dependencies: ["0127E340F0FD6B41"]
 			id: "1F862B2FB417B77A"
 			tasks: [{
@@ -720,6 +726,7 @@
 		{
 			x: -5.5d
 			y: 4.5d
+			subtitle: "Centrifuge to extract a purer sample"
 			dependencies: ["1F862B2FB417B77A"]
 			id: "50754B0B7A7C85C0"
 			tasks: [{
@@ -731,6 +738,7 @@
 		{
 			x: -7.0d
 			y: 4.5d
+			subtitle: "Compress into block form"
 			dependencies: ["50754B0B7A7C85C0"]
 			id: "0B5AEC4B5AB77A76"
 			tasks: [{
@@ -742,6 +750,7 @@
 		{
 			x: -8.5d
 			y: 4.5d
+			subtitle: "Centrifuge again to obtain an even more pure sample"
 			dependencies: ["0B5AEC4B5AB77A76"]
 			id: "26236ED95E77FFC9"
 			tasks: [{
@@ -753,6 +762,7 @@
 		{
 			x: -10.0d
 			y: 4.5d
+			subtitle: "Use in a specialised filter for your oxygen distributor"
 			dependencies: ["26236ED95E77FFC9"]
 			id: "1969E1ACAE3BFE77"
 			tasks: [{
@@ -820,11 +830,6 @@
 				type: "checkmark"
 				title: "Continued in Yttr"
 			}]
-			rewards: [{
-				id: "7728288C37EFC422"
-				type: "item"
-				item: "ad_astra:earth_globe"
-			}]
 		}
 		{
 			title: "Better power transfer"
@@ -858,6 +863,53 @@
 					tag: { }
 				}
 			}]
+		}
+		{
+			title: "Prefabs"
+			icon: "create:schematicannon"
+			x: -11.5d
+			y: 6.0d
+			shape: "heart"
+			subtitle: "Effortless mini-outpost design"
+			description: [
+				"There should be some prefabricated bases ready for you to take over in your schematics folder!"
+				""
+				"I would recommend setting the schematic outline down on the planet, placing the schematic in your schematicannon, then using the Clipboard from Create to get a materials list."
+				""
+				"You can check the list off as you collect the resources you need back on Earth."
+				""
+				"On top of the resources required, you will *always* need 2 of the 3x3 doors from Ad Astra to act as your airlock. They aren't included in the schematic as there is a slight incompatibility between Ad Astra and Create."
+				""
+				"I've tried to make it obvious where the doors need to go. It's generally in the open hole in the side of the building."
+			]
+			dependencies: ["71C20C9BBD40EFD4"]
+			id: "1327F29838438065"
+			tasks: [
+				{
+					id: "2082EAD534663E94"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "3611C12D9B81817E"
+					type: "item"
+					item: "ad_astra:iron_sliding_door"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4A47EA42D5F220CB"
+					type: "item"
+					item: "create:clipboard"
+				}
+				{
+					id: "7412FDD88C60C7BF"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 8
+				}
+			]
 		}
 	]
 	quest_links: [ ]

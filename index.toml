@@ -102,15 +102,15 @@ hash = "13733cd39768e306ca6ab519a03ed66e28145ea4240db968505d399aa0a8e0cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "fc10af848e4a09feaf503f6cc8b4aeeeefec118199f0b33effbbb3ea2adc3416"
+hash = "e1c0f445265075d8975467a001233bf58ad71583681891c64fb73713b76a3854"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "99847780e0bf81ed9c7d571265008ad2eed290b8403d045447560f3d57f4967d"
+hash = "3f8f2aa17f519313d45aa4594d87549cb25de7c7f2e4d7862ae4320db669cabc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beginnings.snbt"
-hash = "d83677f3a78de9044e7b81b14f44736b35d2f13cb21f3504b9ad2fb3ed472e9e"
+hash = "b52ecb5f518c32e16163fa475e19abaef15396643be47dcdef319e659843d335"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -118,7 +118,7 @@ hash = "2362c5fe44f8cf994660e59e7db135d1e14bb370a5cdd2571acf9b18e1bbb2cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hells_away_from_home.snbt"
-hash = "ae9fddb26e6f059e2db6c2120c0dde0f92b8967a2d03b28b600c1f52d9715f30"
+hash = "0814e4815718cd37e723f795714713a8b1cba0358a85189ee34d5e02e77247ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/interstallar.snbt"
@@ -126,11 +126,15 @@ hash = "161bb8911ed685750759d7fef6c0bf55ac4660911a855cf29c3a27fb285886d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/unforgiving_landscapes.snbt"
-hash = "b3c76e942ecd3a69c0590442e9fe69928f1b09908a8a9bf21cc94ab6cedd33c7"
+hash = "29f0b1d364ee38320be5b2c216fa3091dd01be8590dee25bce88b00bf53e4ecd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/wonderful_world_of_cooking.snbt"
+hash = "066d73222de476f6392256d6f3ac3d4d679e958eb5de763d283cbbfbc9611c9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
-hash = "cdcadda7156457140ac4d368b5ce417f5e86b128a24fafd8a315defe01d0dd57"
+hash = "d9e67d37baa3018fb92dcffd61e705a20346c7d02a47504bf5d9ab8bd3b74102"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -386,11 +390,11 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_inscriber_press.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+hash = "4ba1dff601e31308a812a4aa066086c32460804fcc10dc2f61683d11c8cb7d7a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_printed_circuit.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+hash = "ea74398a544e4cf4cb6df1d3ae49f3ba76c8bae36e56fc83448c4708530db1d7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_desh.png"
@@ -722,11 +726,15 @@ hash = "8428782efdf3d8cc3eedec75c1b2da8def63df901202f15ef2968a273796ae52"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_recipes.js"
-hash = "06043a01f667f993006c2495a700109d64a651a41668d24027c5c2646525e3e8"
+hash = "17a9069ccaa3530f2b6e9f13137d494e2d8bd39100ac1a1d92244f3c3462b2fb"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
 hash = "85464e7ac941437d9bbc59d3d5f032968efeaec0027ec652fafeb7fe7d988f2c"
+
+[[files]]
+file = "kubejs/startup_scripts/script.js"
+hash = "849597780f489579d0c3af2b80d9d1209b152be22e2c270c9085623bbf0a5aea"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"

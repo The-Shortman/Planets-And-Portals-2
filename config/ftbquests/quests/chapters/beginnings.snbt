@@ -92,7 +92,11 @@
 		{
 			x: -10.5d
 			y: 1.0d
-			description: ["Thanks for the Ultrapure Desh Block and Desh Filter texture!"]
+			description: [
+				"Thanks for the Ultrapure Desh Block and Desh Filter texture!"
+				""
+				"Thanks also for the Croptopia sidequest line!"
+			]
 			hide_dependency_lines: true
 			dependencies: ["1C02BE91B69C5AE1"]
 			id: "58701B340042FACE"
