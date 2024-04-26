@@ -1098,6 +1098,11 @@ hash = "d640751f77452b535fab50561d474f5f5a3b5fd11bbdab10f4e04e04ceb6db45"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "1712c54f7f26dee8e0f38c6868e23c8c4114979628a219a7c7be537e13a72167"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "bfe797c7a3be27238b651940fa1e1a8c12b2e313733683e1f1d6a2be652e7707"
 metafile = true
@@ -1124,7 +1129,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "e6e04700221ad9ee008add3c7dd6d282bd1e9cf192a4a0df371036eb5d3823e5"
+hash = "5891b0abfeb425c52088869d62543d9f4630eda5b6b7d95bad761fa60a934e1e"
 metafile = true
 
 [[files]]
@@ -1135,6 +1140,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "cfc600f1d3fb8557d4b123b0cedc7e13010655156248fd31d80508679c3f2fad"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "0b30688d73782a2a2825e7fd7d64ad8c2cfd4b0db774fc2f9e51204bc7d68b47"
 metafile = true
 
 [[files]]
@@ -1228,6 +1238,11 @@ hash = "b62935f5b93516c929ab86222a676c972d4d22bfec2ed39354b66a00f32d21a9"
 metafile = true
 
 [[files]]
+file = "mods/konkrete-fabric.pw.toml"
+hash = "3a0438375a9dd6fc97ab251624768a6ca5656863f1e769ddc9ef2761fe564a2c"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "cc5c7c26c43fbd3c3d88b9fb4f3b33cd1ce923ea52d0f12737549a8b21e467c0"
 metafile = true
@@ -1245,6 +1260,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "7935cdef8a08adcc5774c756c1ba71f263a661554394aeca5254ac8d7be752da"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "69cb9ac3d6928ff0b51cbece2ee99b80cb00e1e6df3b824c6e675943449abc1f"
 metafile = true
 
 [[files]]
