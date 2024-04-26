@@ -2,6 +2,39 @@
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
 
+onEvent('fluid.registry', event => {
+
+	event.create('supercritical_desh_fluid')
+		.thinTexture(0xDBA751)
+		.bucketColor(0xDBA751)
+		.displayName('Supercritical Fluid Desh')
+	
+	event.create('supercritical_ostrum_fluid')
+		.thinTexture(0xC677AE)
+		.bucketColor(0xC677AE)
+		.displayName('Supercritical Fluid Ostrum')
+	
+	event.create('supercritical_iron_fluid')
+		.thinTexture(0xB7B7B7)
+		.bucketColor(0xB7B7B7)
+		.displayName('Supercritical Fluid Iron')
+
+	event.create('supercritical_calorite_fluid')
+		.thinTexture(0xEE6262)
+		.bucketColor(0xEE6262)
+		.displayName('Supercritical Fluid Calorite')
+	
+	event.create('supercritical_certus_fluid')
+		.thinTexture(0xAEF4FF)
+		.bucketColor(0xAEF4FF)
+		.displayName('Supercritical Fluid Certus')
+
+	event.create('supercritical_uraninite_fluid')
+		.thinTexture(0x313D44)
+		.bucketColor(0x313D44)
+		.displayName('Supercritical Fluid Uraninite')
+})
+
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
@@ -14,6 +47,15 @@ onEvent('item.registry', event => {
     event.create("ultrapure_condensed_ostrum_condensator", "basic").displayName('Ultrapure Condensed Ostrum Condensator')
     event.create("incomplete_inscriber_press", "create:sequenced_assembly").displayName('Incomplete Inscriber Press')
     event.create("incomplete_printed_circuit", "create:sequenced_assembly").displayName('Incomplete Printed Circuit')
+    event.create("singularity_housing", "basic").displayName('Singularity Housing')
+    event.create("stabilised_housing", "basic").displayName('Stabilised Singularity Housing')
+    event.create("incomplete_singularity", "create:sequenced_assembly").displayName('Incomplete Singularity')
+    event.create("iron_singularity", "basic").displayName('Iron Singularity')
+    event.create("desh_singularity", "basic").displayName('Desh Singularity')
+    event.create("ostrum_singularity", "basic").displayName('Ostrum Singularity')
+    event.create("calorite_singularity", "basic").displayName('Calorite Singularity')
+    event.create("certus_singularity", "basic").displayName('Certus Singularity')
+    event.create("uraninite_singularity", "basic").displayName('Uraninite Singularity')
 })
 
 onEvent('block.registry', event => {
