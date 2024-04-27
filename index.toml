@@ -470,11 +470,11 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_inscriber_press.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+hash = "4ba1dff601e31308a812a4aa066086c32460804fcc10dc2f61683d11c8cb7d7a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_printed_circuit.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+hash = "ea74398a544e4cf4cb6df1d3ae49f3ba76c8bae36e56fc83448c4708530db1d7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_singularity.png"
@@ -834,7 +834,7 @@ hash = "17a9069ccaa3530f2b6e9f13137d494e2d8bd39100ac1a1d92244f3c3462b2fb"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs_recipes.js"
-hash = "5852cadc6cc1fe685b4d90e94b4cfe4c9c7a056830d31cf1eb6325501f79136c"
+hash = "9d6ee9976cfa91aa10d242320edecca92e173bb0467721113742bf8d5873433a"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
@@ -842,7 +842,7 @@ hash = "85464e7ac941437d9bbc59d3d5f032968efeaec0027ec652fafeb7fe7d988f2c"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "ab00635dfde723f71a7cf67b4834dabf0845008c6801ebd11d60813a7fd8cb9e"
+hash = "2075eafa6f1f672f3d58185b215754ae848b6dbb764aa30427c4ec03d9e9e32e"
 
 [[files]]
 file = "local/ftbquests/saved/2024-04-20-21-28-45/chapter_groups.snbt"
