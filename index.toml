@@ -97,8 +97,56 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "82a42b5a452d6416cc0beecb19ad73bfdcc5bc8752099792ed08959493c8bded"
 
 [[files]]
+file = "config/fancymenu/assets/accbuttonhover.png"
+hash = "4f08fe7663634ed2c3ca6aca25c66f59a0eeddee2fd023468428dc010cf54193"
+
+[[files]]
+file = "config/fancymenu/assets/accbuttonstandard.png"
+hash = "775572a35ffae865cff9964eeba718ccaac918ab4fe03691eb9ccec70cd7e9e8"
+
+[[files]]
+file = "config/fancymenu/assets/buttonhover.png"
+hash = "fbd31c579d4a11541e6a2c3d07a145b2c66391ddc899e2ce4ba9451562e26380"
+
+[[files]]
+file = "config/fancymenu/assets/buttonstandard.png"
+hash = "2bf6a64c9071a55fa1670a237f31e33d8aec82bff206343fb2c7f1bb345a32d3"
+
+[[files]]
+file = "config/fancymenu/assets/langbuttonhover.png"
+hash = "2f20d8d099c47a225b44f8a24797c3713b1288ea0fb971d56f079b1cb9f90565"
+
+[[files]]
+file = "config/fancymenu/assets/langbuttonstandard.png"
+hash = "48e2b999b5f62ea17ddfd70980fd1c7d85cae8ba124c930ba161e24f3896fadd"
+
+[[files]]
+file = "config/fancymenu/assets/lavatanks.png"
+hash = "0fbb74058bfb1b47db2adfd6835cb960db72ee3e14bc93be97f499fb83d23a15"
+
+[[files]]
 file = "config/fancymenu/assets/loadingbar.gif"
 hash = "e09e77f5ad10d01dc74fa043efde0c73114329c47da22fa79c0f8709b543f927"
+
+[[files]]
+file = "config/fancymenu/assets/longbuttonhover.png"
+hash = "94fde15fce75ff5962b0d04fbd9c8227898f3741668f3363d3612be36ae7d65e"
+
+[[files]]
+file = "config/fancymenu/assets/longbuttonstandard.png"
+hash = "54fc70ec6eaadbe82a5682082e53075180764b2a6c9f441e0764f5f8194913af"
+
+[[files]]
+file = "config/fancymenu/assets/medbuttonhover.png"
+hash = "e544d5a979763b84412556b96b2f9060e9b45c7387c55aeebf232d0e64190c7b"
+
+[[files]]
+file = "config/fancymenu/assets/medbuttonstandard.png"
+hash = "15f4f05cb390728aa26053c770a6fa77c72a0c229d91ac1877098533ae70ceb6"
+
+[[files]]
+file = "config/fancymenu/assets/moonview.png"
+hash = "022399105f80bd4ec2629c342980f2ccbc965bdf1627eda29985ef011ee2e35e"
 
 [[files]]
 file = "config/fancymenu/assets/typewryttrlogo.png"
@@ -106,11 +154,15 @@ hash = "8908e8b16e56600e1cb46ee21bfe0d06bf7deee8775fceb79b833c01b64001b5"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "7d4410bcfc1dcf3265c53842a57f0f9d95a07131d4de67116a9f65def0bcf54a"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "147e922821e4145fb56b962c2691f1a51d6e6a805e09906fdfecda829687b36b"
+hash = "69150a48f65ff9f44e9f7e6ab6f4eec5522a35233b03f8f351eeeafdba27f881"
+
+[[files]]
+file = "config/fancymenu/customization/create_world_screen_layout.txt"
+hash = "5b576a4b15af4245c7c497dda145a1e84c095ac4849f5be30631992c0b1ace6a"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -118,31 +170,31 @@ hash = "faa246a30b3091f4e59987a0a020d36abdbd98107a1b62e16e3064b7a1079cd3"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "8e05c2b82a72c6ebe83ec9b0d9d1389f5ac0b80b0015d360a1f28f6a37ff4712"
+hash = "e1f3dbb6a67217acae82103e1a0f5b2099f5888017afbefff2a1fc4b8de6e5e7"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "795b81df9004cfd5e4105a0aad484d9a91122880135df21dea4ebcd4da0b7e06"
+hash = "f4376005d963ff52e6a4e937e4413e539b4e08ef21c9f060df3696a236bcc14e"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
-hash = "878c9368bec63cd86822b28ceca345704ebaa411f7b72dd0bb4e682235b790e1"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "9c1e03b0c85dd8ff01d5b66218c8d3f304df5a728c317457d2fbd79537251c91"
+hash = "438aa6aea0066ffd21a4334972fd9a1396bb4fd395f09bd93c40ae3f3873d6e7"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "37104b7662bd2929a4d52d518fed576a993fe0979833d11d7c8e15da2da17f1a"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
-hash = "9485218ff92634e63e1cb6cf0739b9177ddfeef0f5b8e2cc4863b398c0948dcb"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/fastload.properties"
@@ -449,8 +501,16 @@ file = "kubejs/assets/kubejs/textures/block/fluid_flow.png"
 hash = "598571c27de55f6d04389d9b6d4a2504575f315571ab34d4178ae42d49cc535d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_flow.png.mcmeta"
+hash = "d947e6371a5bb46ab733722fac72f7aae2832fc94ecc8a1ab55c3e1471cbf4f4"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/fluid_still.png"
 hash = "455a767cdc6d1d2964be4a165512f719ff73be6f2a6c71b35ad7de3c5217e76a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_still.png.mcmeta"
+hash = "d947e6371a5bb46ab733722fac72f7aae2832fc94ecc8a1ab55c3e1471cbf4f4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/ultrapure_desh_block.png"
