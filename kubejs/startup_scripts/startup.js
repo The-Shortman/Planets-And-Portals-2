@@ -8,31 +8,43 @@ onEvent('fluid.registry', event => {
 		.thinTexture(0xDBA751)
 		.bucketColor(0xDBA751)
 		.displayName('Supercritical Desh Fluid')
+        .stillTexture("create:block/fluid/milk_flow")
+        .flowingTexture("create:block/fluid/milk_flow")
 	
 	event.create('supercritical_ostrum_fluid')
 		.thinTexture(0xC677AE)
 		.bucketColor(0xC677AE)
 		.displayName('Supercritical Ostrum Fluid')
+        .stillTexture('create:block/fluid/milk_flow')
+        .flowingTexture('create:block/fluid/milk_flow')
 	
 	event.create('supercritical_yttrium_fluid')
 		.thinTexture(0xB7B7B7)
 		.bucketColor(0xB7B7B7)
 		.displayName('Supercritical Yttrium Fluid')
+        .stillTexture('create:block/fluid/milk_flow')
+        .flowingTexture('create:block/fluid/milk_flow')
 
 	event.create('supercritical_calorite_fluid')
 		.thinTexture(0xEE6262)
 		.bucketColor(0xEE6262)
 		.displayName('Supercritical Calorite Fluid')
+        .stillTexture('create:block/fluid/milk_flow')
+        .flowingTexture('create:block/fluid/milk_flow')
 	
 	event.create('supercritical_certus_fluid')
 		.thinTexture(0xAEF4FF)
 		.bucketColor(0xAEF4FF)
 		.displayName('Supercritical Certus Fluid')
+        .stillTexture('create:block/fluid/milk_flow')
+        .flowingTexture('create:block/fluid/milk_flow')
 
 	event.create('supercritical_uraninite_fluid')
 		.thinTexture(0x313D44)
 		.bucketColor(0x313D44)
 		.displayName('Supercritical Uraninite Fluid')
+        .stillTexture('create:block/fluid/milk_flow')
+        .flowingTexture('create:block/fluid/milk_flow')
 })
 
 onEvent('item.registry', event => {

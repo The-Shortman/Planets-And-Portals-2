@@ -481,10 +481,6 @@ file = "kubejs/assets/kubejs/textures/item/incomplete_singularity.png"
 hash = "d229403812f19d6181f2a9b7dc28a81163a973dadf5cd77cb19deec8abf44e24"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/iron_singularity.png"
-hash = "993a67c1b906597711655e92144a3d673737103d505cdb76f7872c70c223a46d"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/ostrum_singularity.png"
 hash = "1d67ed7798e59ed400f255b1a89f5fb64225d52f59d60f94cd1551785ad29463"
 
@@ -523,6 +519,10 @@ hash = "c9ce0cdff373bd6640754e2736db5a507191cac49b2a368a05e672d10c0e98cd"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/uraninite_singularity.png"
 hash = "65189ba43cb8596ad3ad104aec83be4b523ff2b6ee959a3163a5a5192cfd2826"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/yttrium_singularity.png"
+hash = "993a67c1b906597711655e92144a3d673737103d505cdb76f7872c70c223a46d"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -842,7 +842,7 @@ hash = "85464e7ac941437d9bbc59d3d5f032968efeaec0027ec652fafeb7fe7d988f2c"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "2075eafa6f1f672f3d58185b215754ae848b6dbb764aa30427c4ec03d9e9e32e"
+hash = "0e6553fddc7a38c907a84364031e0ed974750cdd2748d0d7c35b4bf67de034f9"
 
 [[files]]
 file = "local/ftbquests/saved/2024-04-20-21-28-45/chapter_groups.snbt"
