@@ -445,6 +445,14 @@ file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_flow.png"
+hash = "598571c27de55f6d04389d9b6d4a2504575f315571ab34d4178ae42d49cc535d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_still.png"
+hash = "455a767cdc6d1d2964be4a165512f719ff73be6f2a6c71b35ad7de3c5217e76a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/ultrapure_desh_block.png"
 hash = "946edc10a28058745f20a69f6dadf39d47969dc96677809fe8394e1985c14eca"
 
@@ -842,7 +850,7 @@ hash = "85464e7ac941437d9bbc59d3d5f032968efeaec0027ec652fafeb7fe7d988f2c"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "0e6553fddc7a38c907a84364031e0ed974750cdd2748d0d7c35b4bf67de034f9"
+hash = "37283dd0baae6bb3e9668775ba8da52aa72b446abd0383ce9bdcc0a91d3ece49"
 
 [[files]]
 file = "local/ftbquests/saved/2024-04-20-21-28-45/chapter_groups.snbt"
