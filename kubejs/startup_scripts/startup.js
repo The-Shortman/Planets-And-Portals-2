@@ -7,32 +7,32 @@ onEvent('fluid.registry', event => {
 	event.create('supercritical_desh_fluid')
 		.thinTexture(0xDBA751)
 		.bucketColor(0xDBA751)
-		.displayName('Supercritical Fluid Desh')
+		.displayName('Supercritical Desh Fluid')
 	
 	event.create('supercritical_ostrum_fluid')
 		.thinTexture(0xC677AE)
 		.bucketColor(0xC677AE)
-		.displayName('Supercritical Fluid Ostrum')
+		.displayName('Supercritical Ostrum Fluid')
 	
-	event.create('supercritical_iron_fluid')
+	event.create('supercritical_yttrium_fluid')
 		.thinTexture(0xB7B7B7)
 		.bucketColor(0xB7B7B7)
-		.displayName('Supercritical Fluid Iron')
+		.displayName('Supercritical Yttrium Fluid')
 
 	event.create('supercritical_calorite_fluid')
 		.thinTexture(0xEE6262)
 		.bucketColor(0xEE6262)
-		.displayName('Supercritical Fluid Calorite')
+		.displayName('Supercritical Calorite Fluid')
 	
 	event.create('supercritical_certus_fluid')
 		.thinTexture(0xAEF4FF)
 		.bucketColor(0xAEF4FF)
-		.displayName('Supercritical Fluid Certus')
+		.displayName('Supercritical Certus Fluid')
 
 	event.create('supercritical_uraninite_fluid')
 		.thinTexture(0x313D44)
 		.bucketColor(0x313D44)
-		.displayName('Supercritical Fluid Uraninite')
+		.displayName('Supercritical Uraninite Fluid')
 })
 
 onEvent('item.registry', event => {
@@ -47,15 +47,17 @@ onEvent('item.registry', event => {
     event.create("ultrapure_condensed_ostrum_condensator", "basic").displayName('Ultrapure Condensed Ostrum Condensator')
     event.create("incomplete_inscriber_press", "create:sequenced_assembly").displayName('Incomplete Inscriber Press')
     event.create("incomplete_printed_circuit", "create:sequenced_assembly").displayName('Incomplete Printed Circuit')
-    event.create("singularity_housing", "basic").displayName('Singularity Housing')
-    event.create("stabilised_housing", "basic").displayName('Stabilised Singularity Housing')
+    event.create("singularity_housing", "basic").displayName('Singularity Housing').rarity("uncommon")
+    event.create("stabilised_housing", "basic").displayName('Stabilised Singularity Housing').rarity("uncommon")
     event.create("incomplete_singularity", "create:sequenced_assembly").displayName('Incomplete Singularity')
-    event.create("iron_singularity", "basic").displayName('Iron Singularity')
-    event.create("desh_singularity", "basic").displayName('Desh Singularity')
-    event.create("ostrum_singularity", "basic").displayName('Ostrum Singularity')
-    event.create("calorite_singularity", "basic").displayName('Calorite Singularity')
-    event.create("certus_singularity", "basic").displayName('Certus Singularity')
-    event.create("uraninite_singularity", "basic").displayName('Uraninite Singularity')
+    event.create("yttrium_singularity", "basic").displayName('Yttrium Singularity').rarity("rare")
+    event.create("desh_singularity", "basic").displayName('Desh Singularity').rarity("rare")
+    event.create("ostrum_singularity", "basic").displayName('Ostrum Singularity').rarity("rare")
+    event.create("calorite_singularity", "basic").displayName('Calorite Singularity').rarity("rare")
+    event.create("certus_singularity", "basic").displayName('Certus Singularity').rarity("rare")
+    event.create("uraninite_singularity", "basic").displayName('Uraninite Singularity').rarity("rare")
+
+
 })
 
 onEvent('block.registry', event => {
