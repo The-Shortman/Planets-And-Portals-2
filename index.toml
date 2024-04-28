@@ -85,10 +85,6 @@ file = "config/entityculling.json"
 hash = "1eab49670e52d33fb63c14c6f5eec9d8abf735d9ee24679ba00f2ca19b96c2d0"
 
 [[files]]
-file = "config/estrogen.json5"
-hash = "ea7677edfc1cc1064706e84242097756c1f19c1bea1de7a1e357648354ff2358"
-
-[[files]]
 file = "config/explorerscompass.json"
 hash = "d68aa6ccd5341f2e1f304c7cef222da8d05ddae1ffa35946345857daf6a870fd"
 
@@ -105,12 +101,24 @@ file = "config/fancymenu/assets/accbuttonstandard.png"
 hash = "775572a35ffae865cff9964eeba718ccaac918ab4fe03691eb9ccec70cd7e9e8"
 
 [[files]]
+file = "config/fancymenu/assets/backshadow.png"
+hash = "8d7ce46d8038ef37e526605538913133dba45657144c228080d1a8ba1e55436d"
+
+[[files]]
+file = "config/fancymenu/assets/boating.png"
+hash = "553054ebd62645d576e513378145ba4d73aa9314bcbbf538aec8d17f500c796f"
+
+[[files]]
 file = "config/fancymenu/assets/buttonhover.png"
 hash = "fbd31c579d4a11541e6a2c3d07a145b2c66391ddc899e2ce4ba9451562e26380"
 
 [[files]]
 file = "config/fancymenu/assets/buttonstandard.png"
 hash = "2bf6a64c9071a55fa1670a237f31e33d8aec82bff206343fb2c7f1bb345a32d3"
+
+[[files]]
+file = "config/fancymenu/assets/gang.png"
+hash = "08e743202db964b997529719c9729b70702760b821e36ddac9c183c6f298ddcb"
 
 [[files]]
 file = "config/fancymenu/assets/langbuttonhover.png"
@@ -133,6 +141,10 @@ file = "config/fancymenu/assets/longbuttonhover.png"
 hash = "94fde15fce75ff5962b0d04fbd9c8227898f3741668f3363d3612be36ae7d65e"
 
 [[files]]
+file = "config/fancymenu/assets/longbuttoninactive.png"
+hash = "3c1823f4de54f22177174a9c7f78cbbcc56c3568a693da4de4aa1fbdb3aa412a"
+
+[[files]]
 file = "config/fancymenu/assets/longbuttonstandard.png"
 hash = "54fc70ec6eaadbe82a5682082e53075180764b2a6c9f441e0764f5f8194913af"
 
@@ -149,6 +161,10 @@ file = "config/fancymenu/assets/moonview.png"
 hash = "022399105f80bd4ec2629c342980f2ccbc965bdf1627eda29985ef011ee2e35e"
 
 [[files]]
+file = "config/fancymenu/assets/trainmountain.png"
+hash = "36d2e9491b4854cc6cbacb639c099cbc7f6b2b4800d5dc46373571e23cff0ede"
+
+[[files]]
 file = "config/fancymenu/assets/typewryttrlogo.png"
 hash = "8908e8b16e56600e1cb46ee21bfe0d06bf7deee8775fceb79b833c01b64001b5"
 
@@ -158,15 +174,31 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "69150a48f65ff9f44e9f7e6ab6f4eec5522a35233b03f8f351eeeafdba27f881"
+hash = "eaffea6e9d40f67b73dc6016b255868038318d217c6f748ae13d5bbfc65ff2b1"
+
+[[files]]
+file = "config/fancymenu/customization/com.terraformersmc.modmenu.gui.modsscreen_layout.txt"
+hash = "8aec52347656bb75a9aab85fd9da967cda2423efb41eb0a745a06377a77ac380"
 
 [[files]]
 file = "config/fancymenu/customization/create_world_screen_layout.txt"
-hash = "5b576a4b15af4245c7c497dda145a1e84c095ac4849f5be30631992c0b1ace6a"
+hash = "3423db77408cd04821422449a9fe1108a2c3534c5eb3513d78e216eb2a6d947b"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "faa246a30b3091f4e59987a0a020d36abdbd98107a1b62e16e3064b7a1079cd3"
+
+[[files]]
+file = "config/fancymenu/customization/edit_server_screen_layout.txt"
+hash = "0db6c7682cf6b822da19d5fd70b15c53fece654dd7e3f183a25274a5b0b46f13"
+
+[[files]]
+file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+hash = "860e893b0592fd3dfcba030f400f0f045e7b486663483f4b2f7e394cc5ff826b"
+
+[[files]]
+file = "config/fancymenu/customization/select_world_screen_layout.txt"
+hash = "ecec7a9332d5b1324f96b7d203d9ec7e881e95e4d7834c068f56cdf8087b74c7"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"

@@ -38,10 +38,10 @@ displayStainedGlass:true
 caveModeDepth:30
 caveModeStart:66
 autoCaveMode:-1
-legibleCaveMaps:false
+legibleCaveMaps:true
 displayCaveModeStart:true
 caveModeToggleTimer:1000
-defaultCaveModeType:1
+defaultCaveModeType:0
 biomeBlending:true
 trackedPlayers:true
 multipleImagesExport:false
