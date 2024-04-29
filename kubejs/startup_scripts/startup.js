@@ -68,6 +68,7 @@ onEvent('item.registry', event => {
     event.create("calorite_singularity", "basic").displayName('Calorite Singularity').rarity("rare")
     event.create("certus_singularity", "basic").displayName('Certus Singularity').rarity("rare")
     event.create("uraninite_singularity", "basic").displayName('Uraninite Singularity').rarity("rare")
+    event.create("portal_actor","basic").displayName('portal.actor.tile').rarity("epic")
 
 
 })

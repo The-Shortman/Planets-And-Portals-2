@@ -1,12 +1,12 @@
 name = "Typewryttr"
 author = "_Shortman"
-version = "dev 1.0"
+version = "dev 2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2d020ebce3e9db871020e6c16c5ead8367932da9d458972b04e416b8275f8edb"
+hash = "17bd644ffa3d5c6d5cf9273ac7d947076dcd512b11b94143e504ae40d403633c"
 
 [versions]
 fabric = "0.15.10"
