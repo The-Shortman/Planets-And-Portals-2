@@ -1,15 +1,15 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = online_options_screen
+  identifier = chat_options_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1714427778462
+  last_edited_time = 1714427975946
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7e9fab80-fe8e-44ec-a72a-a7ad57b7bc75-1714427767351] = [groups:][instances:]
+  [loading_requirement_container_meta:ea767f27-78be-4be1-a7a1-d0d7c0181533-1714427946954] = [groups:][instances:]
 }
 
 menu_background {
@@ -21,7 +21,7 @@ menu_background {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = true
+  keepaspectratio = false
 }
 
 scroll_list_customization {
@@ -34,8 +34,8 @@ scroll_list_customization {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 1ed788a5-7e2c-4488-a26d-4686eaf72423-1714292076580
-  [executable_block:1ed788a5-7e2c-4488-a26d-4686eaf72423-1714292076580][type:generic] = [executables:]
+  button_element_executable_block_identifier = 1c920cf6-623a-4022-954f-724307f69361-1714427946955
+  [executable_block:1c920cf6-623a-4022-954f-724307f69361-1714427946955][type:generic] = [executables:]
   backgroundnormal = [source:local]/config/fancymenu/assets/longbuttonstandard.png
   backgroundhovered = [source:local]/config/fancymenu/assets/longbuttonhover.png
   restartbackgroundanimations = true
@@ -58,8 +58,8 @@ vanilla_button {
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 1eccc637-3a77-404c-829b-a4e1f166b805-1714292076580
-  [loading_requirement_container_meta:1eccc637-3a77-404c-829b-a4e1f166b805-1714292076580] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 53de91ed-5ec2-4a55-b264-45150167f958-1714427946955
+  [loading_requirement_container_meta:53de91ed-5ec2-4a55-b264-45150167f958-1714427946955] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
