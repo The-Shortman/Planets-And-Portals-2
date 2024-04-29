@@ -21,14 +21,6 @@ file = "config/ad_astra.toml"
 hash = "24951f231b939b49bd28f0da0a44c66292e6f567ba015e945ddf41bcc67e08e4"
 
 [[files]]
-file = "config/advanced-xray-fabric/blocks.json"
-hash = "9c381d7c5569136e36e94dba3f750f7f1747d14917e18a0011d920d828a79a2e"
-
-[[files]]
-file = "config/advanced-xray-fabric/settings.json"
-hash = "bc4da2725b8a93b11df509a709cbebf3e276fba00a09df9224e01cf7dbb6600b"
-
-[[files]]
 file = "config/advancementplaques.json5"
 hash = "4cc48edcd0cdb8604000725041c6560047940de4796d5b1da3f73d83170ec1a7"
 
@@ -174,7 +166,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "eaffea6e9d40f67b73dc6016b255868038318d217c6f748ae13d5bbfc65ff2b1"
+hash = "5d5313dc8d62ec9c7bd3c0ec0989fcd99f254ce4a14c065c3f7a35577d60d6b5"
 
 [[files]]
 file = "config/fancymenu/customization/com.terraformersmc.modmenu.gui.modsscreen_layout.txt"
@@ -197,12 +189,36 @@ file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
 hash = "860e893b0592fd3dfcba030f400f0f045e7b486663483f4b2f7e394cc5ff826b"
 
 [[files]]
+file = "config/fancymenu/customization/language_select_screen_layout.txt"
+hash = "24b420160988ff09b0f82dfbd252957d3c092527d323125db3a70937375ae37d"
+
+[[files]]
+file = "config/fancymenu/customization/online_options_screen_layout.txt"
+hash = "cf17397ca0bafd328e10309a6c0e5146090ef1911cdb81521e7c1eec84ee3db6"
+
+[[files]]
+file = "config/fancymenu/customization/options_screen_layout.txt"
+hash = "a8a3c05757e698ad47044a719832a8866317e28f6d67c1edc42f90e4089f74c3"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "4ef8325db6436e312255932c8efd95f9772c37accfc17b77ac08c866b4c748ac"
+
+[[files]]
 file = "config/fancymenu/customization/select_world_screen_layout.txt"
 hash = "ecec7a9332d5b1324f96b7d203d9ec7e881e95e4d7834c068f56cdf8087b74c7"
 
 [[files]]
+file = "config/fancymenu/customization/skin_customization_screen_layout.txt"
+hash = "c79ec7351be01229e992d930cea4df82dbf594ca58d86bc2dc0c302ec90a1bed"
+
+[[files]]
+file = "config/fancymenu/customization/sound_options_screen_layout.txt"
+hash = "3b00e9137141078e0518395ad447770cd294179fccff8b625c2a8f13b5d9134d"
+
+[[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e1f3dbb6a67217acae82103e1a0f5b2099f5888017afbefff2a1fc4b8de6e5e7"
+hash = "8a761aa4780a82c9b13fc0a47b0e1fc76eced163de8a54b48ed96c63d6bc6b61"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -214,7 +230,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "438aa6aea0066ffd21a4334972fd9a1396bb4fd395f09bd93c40ae3f3873d6e7"
+hash = "f587a6032eb66f758431158dc6bd54540bebb920ea65ac85996d06385b4740aa"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -490,7 +506,7 @@ hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "6ab294edbe7507423264f7dfb0cd0e1d83fc30c872b9a648dff78874bc1beaaa"
+hash = "ab34bf506db375ac45af83d6f0aff09ff2e1629e24b0a772b1bac43e0aa4d3b9"
 
 [[files]]
 file = "config/yigd.toml"
