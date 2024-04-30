@@ -96,4 +96,50 @@ onEvent('recipes', event => {
         event.recipes.createPressing(inprint, inprint)
     ]).transitionalItem(inprint).loops(1)
 
+    ////// TOM'S SIMPLE STORAGE //////
+
+    event.remove({mod: 'toms_storage'})
+
+    // Inventory Connector
+
+    event.shaped('toms_storage:ts.inventory_connector',[
+		'ABA',
+		'CDC',
+		'AEA'
+	], {
+		A: '#minecraft:planks',
+		B: 'yttr:yttrium_block',
+		C: 'minecraft:chest',
+		D: 'kubejs:ultrapure_condensed_desh',
+        E: 'minecraft:ender_pearl'
+	})
+
+    // Storage Terminal
+
+    event.shaped('toms_storage:ts.storage_terminal',[
+		'ABA',
+		'CDE',
+		'ABA'
+	], {
+		A: '#minecraft:planks',
+		B: 'yttr:yttrium_ingot',
+		C: 'minecraft:chest',
+		D: 'minecraft:glowstone',
+        E: 'create:framed_glass'
+	})
+
+    // Wireless Terminal
+
+    event.shaped('toms_storage:ts.wireless_terminal',[
+		'ABA',
+		'CDC',
+		'AEA'
+	], {
+		A: '#minecraft:planks',
+		B: 'yttr:yttrium_block',
+		C: 'ad_astra:ostrum_plate',
+		D: 'minecraft:glowstone',
+        E: 'minecraft:ender_eye'
+	})
+
 })
