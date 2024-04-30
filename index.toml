@@ -98,7 +98,7 @@ hash = "2e82db4cbb15457172a507500261833b91a1c5488f0846323a74533275b6880e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "10c7e564c234e87f5688ddf466ca47434d121b8cbc338441ccc49f753862b232"
+hash = "635aeec36cf96bacd5f8eb19d5b758eace3468f47f7d9764a59e0a2ac948e160"
 
 [[files]]
 file = "config/fancymenu/assets/accbuttonhover.png"
@@ -254,7 +254,7 @@ hash = "28ace4b8cdd38f61ddca741312705d7680dcc4730e5e9cbdf70091994bf41d56"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "f38eaaaf44f7f8970d04efb82c81f0fca8101cb12d1bde81fce3f501632d7ba9"
+hash = "f8e59d8fea2e713e2d3729282c06ba34da97a67e682870f63c467f26092001af"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -282,7 +282,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/fastload.properties"
-hash = "b8f0e64ac474130702d89fb591f4006d08ef62eef35b9d5441001d63587be5b3"
+hash = "e78a61587ab383ef974e44855b084d965b7ea51740f487b8ef27b9e1a86cc165"
 
 [[files]]
 file = "config/flywheel.json"
@@ -374,7 +374,7 @@ hash = "d22282b346e82fe2bcf94f278bed1b463107f187babe7ae497a624758584c921"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "22008e7f38aeb2a0bf7d6c3549685f2eb3f8ee5db8849ef2b834068bc8605c6d"
+hash = "4790d57d388ba505db6bb2cef56312adf85dbb9b8c369084859ba66c66c70b0c"
 
 [[files]]
 file = "config/inventoryprofilesnext/192.168.0.11&25565/prev-villager-trading-config.json"
@@ -402,7 +402,7 @@ hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
 
 [[files]]
 file = "config/iris.properties"
-hash = "79d49ebee305ec17a96c723ab4915e5483827c9261a3224df8d6b33f96b531d0"
+hash = "717f51d603ee2260988ff1d5d414b8b962353506d9cd99852aea3ef43d1e0b28"
 
 [[files]]
 file = "config/itemborders.json5"
