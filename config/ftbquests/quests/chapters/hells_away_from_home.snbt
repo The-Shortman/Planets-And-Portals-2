@@ -70,6 +70,11 @@
 			x: 4.0d
 			y: -2.0d
 			subtitle: "Superstability"
+			description: [
+				"Calorite is an incredibly stable and unreactive metal."
+				""
+				"You'll have to extract it in a more specialised way than with a blasting apparatus."
+			]
 			dependencies: ["24735ED83197C2FA"]
 			id: "155BDD6898354359"
 			tasks: [{

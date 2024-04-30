@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1714150304739
+  last_edited_time = 1714496280455
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:1802ce98-f31d-4081-ac7c-7478d99e18a9-1714150281773] = [groups:][instances:]
+  [loading_requirement_container_meta:4ffe9d46-d5d9-407d-a3da-e7efee0b5c57-1714496233600] = [groups:][instances:]
 }
 
 menu_background {
@@ -34,7 +34,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/typewryttrlogo.png
+  source = [source:local]/config/fancymenu/assets/pap2_full_logo.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -46,10 +46,10 @@ element {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = mid-centered
-  advanced_width = 436
-  advanced_height = 71
-  x = -218
-  y = -35
+  advanced_width = 341
+  advanced_height = 101
+  x = -170
+  y = -50
   width = 50
   height = 50
   stretch_x = false

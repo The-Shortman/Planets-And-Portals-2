@@ -10,6 +10,9 @@
         "enable_lock_slots": {
             "value": false
         },
+        "villager_trading_enable": {
+            "value": false
+        },
         "first_run": false
     },
     "GuiSettings": {

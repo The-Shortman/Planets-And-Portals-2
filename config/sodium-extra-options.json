@@ -25,10 +25,11 @@
   },
   "render_settings": {
     "fog_distance": 33,
-    "fog_start": 100,
+    "fog_start": 38,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0
+      "minecraft:overworld": 0,
+      "ad_astra:venus": 0
     },
     "use_linear_flat_color_blender": false,
     "light_updates": true,

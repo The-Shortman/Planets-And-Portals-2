@@ -8,6 +8,15 @@
 	subtitle: ["Modular Storage and Crafting Solutions"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "72BAAE76ECCB1BB0"
+		tasks: [{
+			id: "0D074862FB805521"
+			type: "item"
+			item: "ae2:silicon"
+		}]
+	}]
 	quest_links: [ ]
 }

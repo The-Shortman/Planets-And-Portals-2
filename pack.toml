@@ -1,12 +1,12 @@
-name = "Typewryttr"
+name = "Planets and Portals 2"
 author = "_Shortman"
-version = "dev 2.0"
+version = "dev 0.2.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "17bd644ffa3d5c6d5cf9273ac7d947076dcd512b11b94143e504ae40d403633c"
+hash = "026c190168249e059550748d3cd538955b9716268280b1a7901fa8014173e4a3"
 
 [versions]
 fabric = "0.15.10"
