@@ -3,5 +3,8 @@
     "dim": "ad_astra:moon",
     "ignitionType": "FLUID",
     "ignitionBlock": "kubejs:supercritical_desh_fluid",
-    "returnDim": "minecraft:overworld"
+    "returnDim": "minecraft:overworld",
+    "r": 255,
+    "g": 255,
+    "b": 255
 }
