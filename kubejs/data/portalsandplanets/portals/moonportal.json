@@ -1,8 +1,8 @@
 {
     "block": "kubejs:ultrapure_desh_block",
     "dim": "ad_astra:moon",
-    "ignitionType": "ITEM",
-    "ignitionBlock": "minecraft:stick",
+    "ignitionType": "FLUID",
+    "ignitionBlock": "kubejs:supercritical_desh_fluid",
     "returnDim": "minecraft:overworld",
     "r": 255,
     "g": 255,
