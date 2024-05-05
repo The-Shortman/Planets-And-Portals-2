@@ -2,7 +2,7 @@
     "block": "kubejs:ultrapure_desh_block",
     "dim": "ad_astra:moon",
     "ignitionType": "FLUID",
-    "ignitionBlock": "kubejs:supercritical_desh_fluid",
+    "ignitionSource": "kubejs:supercritical_desh_fluid",
     "r": 255,
     "g": 255,
     "b": 255
