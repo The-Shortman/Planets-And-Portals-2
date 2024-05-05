@@ -1425,6 +1425,11 @@ hash = "d640751f77452b535fab50561d474f5f5a3b5fd11bbdab10f4e04e04ceb6db45"
 metafile = true
 
 [[files]]
+file = "mods/datapack-portals.pw.toml"
+hash = "06a83fcd7028a70645dfd5e803e1b614af1b213db21fdf56e5bec286080712b9"
+metafile = true
+
+[[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "87a25f8f794aa8812e9c473995198a2db40ec6ea41de18a5c1f3d16833237292"
 metafile = true

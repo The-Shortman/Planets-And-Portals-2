@@ -1,0 +1,7 @@
+{
+    "block": "kubejs:ultrapure_desh_block",
+    "dim": "ad_astra:glacio",
+    "ignitionType": "FLUID",
+    "ignitionBlock": "kubejs:supercritical_desh_fluid",
+    "returnDim": "minecraft:overworld"
+}
