@@ -5,6 +5,12 @@ console.info('Hello, World! (You will see this line every time client resources 
 onEvent('jei.hide.items', event => {
 	// Hide items in JEI here
 	// event.hide('minecraft:cobblestone')
+
+	event.hide([
+		'kubejs:portal_actor',
+		'kubejs:incomplete_inscriber_press',
+		'kubejs:incomplete_printed_circuit'
+	])
 })
 
 onEvent('item.tooltip', tooltip => {
@@ -21,5 +27,5 @@ onEvent('item.tooltip', tooltip => {
 		'toms_storage:ts.inventory_hopper_basic',
 		'toms_storage:ts.level_emitter',
 		'toms_storage:ts.inventory_cable_connector_framed'
-	], 'Disabled - Use AE2 for more complex inventory management')
+	], 'Disabled - Use AE2 for more complex storage management')
 })
