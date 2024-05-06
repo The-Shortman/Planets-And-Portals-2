@@ -109,7 +109,7 @@ onEvent('block.registry', event => {
         .hardness(4)
         .textureAll('kubejs:block/voidsifter_side')
         .texture('down', 'kubejs:block/voidsifter_bottom')
-        .texture('north', 'kubejs:block/voidsifter_side')
+        .texture('up', 'kubejs:block/voidsifter_bottom')
 })
 
 onEvent('worldgen.remove', event => {
