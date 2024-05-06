@@ -1,0 +1,49 @@
+{
+    "name": "Void Sifter",
+    "appearance": {
+        "idle": {
+            "block": "yttr:encased_void_filter",
+			"light": 5
+        },
+        "running": {
+            "block": "yttr:encased_void_filter",
+			"light": 10
+        },
+        "errored": {
+            "block": "yttr:encased_void_filter",
+			"light": 5
+        },
+        "paused": {
+            "block": "yttr:encased_void_filter",
+			"light": 5
+        },
+		"interaction_sound": "minecraft:netherite_block",
+		"resistance": 1200,
+		"tool_type": "minecraft:mineable/pickaxe",
+		"mining_level": "minecraft:needs_iron_tool"
+
+    },
+	"components": [
+		{
+			"type": "custommachinery:fluid",
+			"capacity": 3000,
+			"id": "voidtank",
+			"maxInput": 100,
+			"filter": ["yttr:void"],
+			"whitelist": true,
+			"mode": "input",
+			"config": {
+				"default": "none",
+				"left": "input",
+				"enabled": false
+			}
+		},
+		{
+			"type": "custommachinery:item",
+			"id": "lootoutput",
+			"capacity": 1,
+			"mode": "output",
+			"variant": "result"
+		}
+	]
+}

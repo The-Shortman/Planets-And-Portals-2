@@ -1,0 +1,13 @@
+name = "Reborn Core"
+filename = "RebornCore-5.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f899512499b4cf40b45ed4f40c8cfeddfe7b2fab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4145508
+project-id = 237903

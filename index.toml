@@ -1213,6 +1213,10 @@ file = "kubejs/config/common.properties"
 hash = "8fbaa53b391b30b564c171090cafaa2b9c6ac0d4933015bb6ccec018da158636"
 
 [[files]]
+file = "kubejs/data/portalsandplanets/portals/marsportal.json"
+hash = "7ed6ee474d8155906e5f1c09dc8b3a1b4e0109c6edc7b0caee29e9f8f3ffaa27"
+
+[[files]]
 file = "kubejs/data/portalsandplanets/portals/moonportal.json"
 hash = "c0917cde3dcc034402657bf185b438d25653542362c648b3fec8e16c9629473b"
 
@@ -1902,6 +1906,11 @@ hash = "d640751f77452b535fab50561d474f5f5a3b5fd11bbdab10f4e04e04ceb6db45"
 metafile = true
 
 [[files]]
+file = "mods/custom-machinery.pw.toml"
+hash = "cc8439775d9ec3d3caa0b640a1594d4de0185967326e91315be729ebb9a7be1c"
+metafile = true
+
+[[files]]
 file = "mods/datapack-portals.pw.toml"
 hash = "1a6e3849eaa4172337e4225edd45789078b8973023b005654a841d11a614f698"
 metafile = true
@@ -2194,6 +2203,11 @@ metafile = true
 [[files]]
 file = "mods/reacharound.pw.toml"
 hash = "d71731d97f4d9c8bd7a4d96e8b63a5808e5ab4efac0965edef6e3201f5715e63"
+metafile = true
+
+[[files]]
+file = "mods/reborncore.pw.toml"
+hash = "c70dc98427f92b4df794a15e387839d4be12d010ffc263988430721a601a8730"
 metafile = true
 
 [[files]]

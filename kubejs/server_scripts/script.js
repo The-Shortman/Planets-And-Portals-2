@@ -18,6 +18,8 @@ onEvent('recipes', event => {
 		'yttr:ultrapure_diamond'
 	])
 
+	event.recipes.createHaunting('minecraft:coal','minecraft:charcoal')
+
 	// Progression stuff
 
 	event.shaped('kubejs:ultrapure_desh_block',[
