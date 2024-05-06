@@ -1,0 +1,19 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "portalsandplanets:voidsifter",
+    "time": 2000,
+    "requirements": [
+        {
+            "type": "custommachinery:fluid",
+            "fluid": "yttr:void",
+            "amount": 243000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "yttr:ultrapure_yttrium",
+            "amount": 16,
+            "mode": "output"
+        }
+    ]
+}

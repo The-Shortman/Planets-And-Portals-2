@@ -92,6 +92,24 @@ onEvent('block.registry', event => {
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('minecraft:needs_diamond_tool')
         .requiresTool(true)
+    
+    event.create('portalsandplanets:pressure_chamber_dummy_inactive')
+        .hardness(4)
+        .textureAll('yttr:block/can_filler_side')
+        .texture('up', 'yttr:block/yttrium_block')
+        .texture('north', 'kubejs:block/pressure_chamber_front_inactive')
+
+    event.create('portalsandplanets:pressure_chamber_dummy_active')
+        .hardness(4)
+        .textureAll('yttr:block/can_filler_side')
+        .texture('up', 'yttr:block/yttrium_block')
+        .texture('north', 'kubejs:block/pressure_chamber_front_active')
+    
+    event.create('portalsandplanets:voidsifter_dummy')
+        .hardness(4)
+        .textureAll('kubejs:block/voidsifter_side')
+        .texture('down', 'kubejs:block/voidsifter_bottom')
+        .texture('north', 'kubejs:block/voidsifter_side')
 })
 
 onEvent('worldgen.remove', event => {

@@ -13,6 +13,47 @@ onEvent('recipes', event => {
     let placehold = 'create:incomplete_precision_mechanism'
     // event.remove({output: 'ae2:inscriber'})
 
+    // Yttrium Pressure Chamber
+
+    event.recipes.create.mechanical_crafting(Item.of("custommachinery:custom_machine_item", {
+        machine: 'portalsandplanets:pressure_chamber'
+    }), [
+		' AAA ',
+        'ABCBA',
+        'ADEDA',
+        'AFGFA',
+        ' AAA '
+	], {
+		A: "yttr:yttrium_ingot",
+        B: "create:smart_fluid_pipe",
+        C: "create:depot",
+        D: "create:fluid_tank",
+        E: "kubejs:ultrapure_condensed_ostrum_condensator",
+        F: "immersive_aircraft:industrial_gears",
+        G: "create:blaze_burner"
+	})
+
+    // Void Sifter
+
+    event.recipes.create.mechanical_crafting(Item.of("custommachinery:custom_machine_item", {
+        machine: 'portalsandplanets:voidsifter'
+    }), [
+		' HIH ',
+        'ABCBA',
+        'ADEDA',
+        'ABGBA',
+        ' AAA '
+	], {
+		A: "yttr:yttrium_ingot",
+        B: "yttr:neodymium_block",
+        C: "yttr:reinforced_cleaver",
+        D: "create:fluid_tank",
+        E: "kubejs:ultrapure_condensed_desh_filter",
+        G: "create:depot",
+        H: "yttr:magtank",
+        I: "yttr:magtube"
+	})
+
     // Singularity Housing
 
     event.recipes.create.sequenced_assembly([

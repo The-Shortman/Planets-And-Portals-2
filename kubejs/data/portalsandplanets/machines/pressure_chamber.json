@@ -1,0 +1,77 @@
+{
+    "name": "Yttrium Pressure Chamber",
+    "appearance": {
+        "idle": {
+            "block": "portalsandplanets:pressure_chamber_dummy_inactive",
+			"light": 5
+        },
+        "running": {
+            "block": "portalsandplanets:pressure_chamber_dummy_active",
+			"light": 15
+        },
+        "errored": {
+            "block": "portalsandplanets:pressure_chamber_dummy_inactive",
+			"light": 5
+        },
+        "paused": {
+            "block": "portalsandplanets:pressure_chamber_dummy_inactive",
+			"light": 5
+        },
+		"interaction_sound": "minecraft:netherite_block",
+		"resistance": 1200,
+		"tool_type": "minecraft:mineable/pickaxe",
+		"mining_level": "minecraft:needs_iron_tool"
+
+    },
+	"components": [
+		{
+			"type": "custommachinery:fluid",
+			"capacity": 81000,
+			"id": "outputtank",
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:item",
+			"id": "inputslot",
+			"capacity": 64,
+			"mode": "input"
+		}
+	],
+	"gui": [
+		{
+			"texture": "custommachinery:textures/gui/base_background.png",
+			"x": 0,
+			"y": 0,
+			"type": "custommachinery:texture"
+		},
+		{
+			"x": 47,
+			"y": 80,
+			"type": "custommachinery:player_inventory"
+		},
+		{
+			"x": 67,
+			"y": 30,
+			"type": "custommachinery:slot",
+			"id": "inputslot"
+		},
+		{
+			"id": "outputtank",
+			"x": 149,
+			"y": 30,
+			"type": "custommachinery:fluid"
+		},
+		{
+			"x": 116,
+			"y": 30,
+			"type": "custommachinery:progress"
+		},
+		{
+			"text": "Yttrium Pressure Chamber",
+			"x": 7,
+			"y": 5,
+			"type": "custommachinery:text"
+		}
+
+	]
+}

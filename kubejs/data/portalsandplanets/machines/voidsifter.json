@@ -1,22 +1,7 @@
 {
     "name": "Void Sifter",
     "appearance": {
-        "idle": {
-            "block": "yttr:encased_void_filter",
-			"light": 5
-        },
-        "running": {
-            "block": "yttr:encased_void_filter",
-			"light": 10
-        },
-        "errored": {
-            "block": "yttr:encased_void_filter",
-			"light": 5
-        },
-        "paused": {
-            "block": "yttr:encased_void_filter",
-			"light": 5
-        },
+        "block": "portalsandplanets:voidsifter_dummy",
 		"interaction_sound": "minecraft:netherite_block",
 		"resistance": 1200,
 		"tool_type": "minecraft:mineable/pickaxe",
@@ -26,24 +11,55 @@
 	"components": [
 		{
 			"type": "custommachinery:fluid",
-			"capacity": 3000,
+			"capacity": 243000,
 			"id": "voidtank",
-			"maxInput": 100,
+			"maxInput": 8100,
 			"filter": ["yttr:void"],
 			"whitelist": true,
-			"mode": "input",
-			"config": {
-				"default": "none",
-				"left": "input",
-				"enabled": false
-			}
+			"mode": "input"
 		},
 		{
 			"type": "custommachinery:item",
 			"id": "lootoutput",
-			"capacity": 1,
-			"mode": "output",
-			"variant": "result"
+			"capacity": 64,
+			"mode": "output"
 		}
+	],
+	"gui": [
+		{
+			"texture": "custommachinery:textures/gui/base_background.png",
+			"x": 0,
+			"y": 0,
+			"type": "custommachinery:texture"
+		},
+		{
+			"x": 47,
+			"y": 80,
+			"type": "custommachinery:player_inventory"
+		},
+		{
+			"x": 67,
+			"y": 30,
+			"type": "custommachinery:fluid",
+			"id": "voidtank"
+		},
+		{
+			"id": "lootoutput",
+			"x": 149,
+			"y": 30,
+			"type": "custommachinery:slot"
+		},
+		{
+			"x": 116,
+			"y": 30,
+			"type": "custommachinery:progress"
+		},
+		{
+			"text": "Void Sifter",
+			"x": 7,
+			"y": 5,
+			"type": "custommachinery:text"
+		}
+
 	]
 }

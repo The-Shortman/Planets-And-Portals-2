@@ -1,0 +1,45 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "portalsandplanets:pressure_chamber",
+    "time": 20,
+    "requirements": [
+        {
+            "type": "custommachinery:structure",
+            "keys": {
+                "a": "ae2:sky_stone_small_brick",
+                "b": "ae2:quartz_block",
+                "c": "create:fluid_tank",
+                "d": "create:item_vault"
+            },
+            "pattern": [
+                [
+                    "aaa",
+                    "aaa",
+                    "bmb"
+                ],
+                [
+                    "aaa",
+                    "cdc",
+                    "   "
+                ],
+                [
+                    "aaa",
+                    "c c",
+                    "   "
+                ]
+            ]
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "ae2:charged_certus_quartz_crystal",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "fluid": "kubejs:supercritical_certus_fluid",
+            "amount": 81,
+            "mode": "output"
+        }
+    ]
+}

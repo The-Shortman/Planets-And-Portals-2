@@ -1,0 +1,45 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "portalsandplanets:pressure_chamber",
+    "time": 20,
+    "requirements": [
+        {
+            "type": "custommachinery:structure",
+            "keys": {
+                "a": "yttr:yttrium_plating",
+                "b": "yttr:yttrium_block",
+                "c": "create:fluid_tank",
+                "d": "create:item_vault"
+            },
+            "pattern": [
+                [
+                    "aaa",
+                    "aaa",
+                    "bmb"
+                ],
+                [
+                    "aaa",
+                    "cdc",
+                    "   "
+                ],
+                [
+                    "aaa",
+                    "c c",
+                    "   "
+                ]
+            ]
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "yttr:yttrium_ingot",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "fluid": "kubejs:supercritical_yttrium_fluid",
+            "amount": 81,
+            "mode": "output"
+        }
+    ]
+}

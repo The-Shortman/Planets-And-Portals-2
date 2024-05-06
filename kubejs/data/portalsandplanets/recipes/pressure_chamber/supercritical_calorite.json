@@ -1,0 +1,45 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "portalsandplanets:pressure_chamber",
+    "time": 20,
+    "requirements": [
+        {
+            "type": "custommachinery:structure",
+            "keys": {
+                "a": "ad_astra:calorite_plating",
+                "b": "ad_astra:calorite_block",
+                "c": "create:fluid_tank",
+                "d": "create:item_vault"
+            },
+            "pattern": [
+                [
+                    "aaa",
+                    "aaa",
+                    "bmb"
+                ],
+                [
+                    "aaa",
+                    "cdc",
+                    "   "
+                ],
+                [
+                    "aaa",
+                    "c c",
+                    "   "
+                ]
+            ]
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "ad_astra:calorite_ingot",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "fluid": "kubejs:supercritical_calorite_fluid",
+            "amount": 81,
+            "mode": "output"
+        }
+    ]
+}
