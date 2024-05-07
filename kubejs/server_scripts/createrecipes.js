@@ -323,7 +323,7 @@ function mechanicalCraftingRecipes(event) {
 
 		// Ultrapure Condensed Ostrum Condensator
 		{
-            output: 'kubejs:ultrapure_condensed_desh_filter',
+            output: 'kubejs:ultrapure_condensed_ostrum_condensator',
             shape: [
                 'ABA',
 				'CDC',
@@ -353,7 +353,7 @@ function mechanicalCraftingRecipes(event) {
                 B: "create:smart_fluid_pipe",
                 C: "create:depot",
                 D: "create:fluid_tank",
-                E: "kubejs:ultrapure_desh",
+                E: "kubejs:ultrapure_condensed_ostrum_condensator",
                 F: "immersive_aircraft:industrial_gears",
                 G: "create:blaze_burner"
             }
@@ -415,6 +415,6 @@ function hauntingRecipes(event) {
 	[
 		['minecraft:charcoal','minecraft:coal'],
 	].forEach((recipe) => {
-		event.recipes.createHaunting(recipe[1], recipe[2])
+		event.recipes.createHaunting(recipe[1], recipe[0])
 	})
 }

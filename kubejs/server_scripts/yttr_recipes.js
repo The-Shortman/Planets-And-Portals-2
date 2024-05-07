@@ -28,9 +28,9 @@ function yttrCentrifuging(event) {
         // Ultrapure Condensed Ostrum
         {
             outputs: [
-                {'item': 'kubejs:ultrapure_condensed_desh', 'count': 1},
+                {'item': 'kubejs:ultrapure_condensed_ostrum', 'count': 1},
             ],
-            input: 'kubejs:ultrapure_desh_block',
+            input: 'kubejs:ultrapure_ostrum_block',
             inputcount: 4,
             time: 1600,
         },

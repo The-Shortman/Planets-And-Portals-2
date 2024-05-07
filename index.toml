@@ -1618,7 +1618,7 @@ hash = "cb59bd29082660f1a7d0eddb555448ee695c478cef88aacd71998eca91af5f8b"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "8b8789248feb8587cc79c9cd0133f84beadde2a26a62beb09d9102ce5aa94695"
+hash = "e83ecc5fc1798676a80968a00fdeceebc94b94271a5a7aebbd41c0fe876d2a9a"
 
 [[files]]
 file = "kubejs/server_scripts/yttr_recipes.js"

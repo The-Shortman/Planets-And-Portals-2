@@ -207,7 +207,7 @@ function shapedCrafting(event) {
             output: 'ad_astra:netherite_space_helmet',
             inputs: {
 				A: 'ad_astra:ostrum_plate',
-				B: 'minecraft:netherite_helmet',
+				B: 'minecraft:netherite_ingot',
 				C: 'minecraft:orange_stained_glass_pane',
             },
             shape: [
@@ -254,7 +254,7 @@ function shapedCrafting(event) {
             output: 'ad_astra:netherite_space_boots',
             inputs: {
 				A: 'ad_astra:ostrum_plate',
-				B: 'minecraft:netherite_boots',
+				B: 'minecraft:netherite_ingot',
 				C: 'ad_astra:desh_plate',
             },
             shape: [
