@@ -1213,7 +1213,7 @@ file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_ostrum.png"
 hash = "501d7b7e835831f3eab936f53ef27b8c7471e795b006c28b1b814140a4a24c99"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_ostrum_condensator.png"
+file = "kubejs/assets/kubejs/textures/item/portalsandplanets:ultrapure_condensed_ostrum_condensator.png"
 hash = "e26b4a389c9b60bcb05deecddd9a3b0f95a5c91d916c10a7d0aa8f8df730881a"
 
 [[files]]
