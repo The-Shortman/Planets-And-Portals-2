@@ -236,16 +236,16 @@ function shapedCrafting(event) {
 	
 		// Netherite Space Suit Leggings
         {
-            output: 'ad_astra:netherite_space_leggings',
+            output: 'ad_astra:netherite_space_pants',
             inputs: {
 				A: 'ad_astra:ostrum_plate',
 				B: 'minecraft:netherite_ingot',
-				C: 'create:andesite_alloy'
+				C: 'ad_astra:desh_plate'
             },
             shape: [
 				'ABA',
-				'A A',
-				'C C'
+				'C C',
+				'A A'
             ]
         },
 
