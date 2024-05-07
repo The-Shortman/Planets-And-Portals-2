@@ -1213,7 +1213,7 @@ file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_ostrum.png"
 hash = "501d7b7e835831f3eab936f53ef27b8c7471e795b006c28b1b814140a4a24c99"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/portalsandplanets:ultrapure_condensed_ostrum_condensator.png"
+file = "kubejs/assets/kubejs/textures/item/ultrapure_condensed_ostrum_condensator.png"
 hash = "e26b4a389c9b60bcb05deecddd9a3b0f95a5c91d916c10a7d0aa8f8df730881a"
 
 [[files]]
@@ -1605,16 +1605,24 @@ file = "kubejs/exported/tags/worldgen/trunk_placer_type.txt"
 hash = "8428782efdf3d8cc3eedec75c1b2da8def63df901202f15ef2968a273796ae52"
 
 [[files]]
-file = "kubejs/server_scripts/ae2_recipes.js"
-hash = "8fb6ab1e20617564c8e532744a83255b15ce9794fbcc490cd63ff31488d5199b"
+file = "kubejs/server_scripts/createrecipes.js"
+hash = "22c7a85cd56e276c79f96dd94e3270bd1f72a511a0e45bf752498b88b3306642"
 
 [[files]]
-file = "kubejs/server_scripts/kubejs_recipes.js"
-hash = "bfc507442f38af4abe04d4aa64ea7b1dbbb8103dfd982ba4070aa5f0e3189b2f"
+file = "kubejs/server_scripts/reciperemovals.js"
+hash = "5ede19e6f40d52f27553b5ca9f488b20b7ee40c879636a4c95c7b78a30969005"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "8559cc1bd1b8f5e609343a9c4050a6492b1a66a28b6d811ed93ada642819517b"
+hash = "cb59bd29082660f1a7d0eddb555448ee695c478cef88aacd71998eca91af5f8b"
+
+[[files]]
+file = "kubejs/server_scripts/vanillarecipes.js"
+hash = "8b8789248feb8587cc79c9cd0133f84beadde2a26a62beb09d9102ce5aa94695"
+
+[[files]]
+file = "kubejs/server_scripts/yttr_recipes.js"
+hash = "c989b5cf2cf0e5cc571663a645085ebecdbbfd25482d1db67278861f3512c33f"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"

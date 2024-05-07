@@ -1,14 +1,8 @@
 onEvent("recipes", event => {
-    crushingRecipes(event);
-    millingRecipes(event);
-    itemApplication(event);
     fillingRecipes(event);
     mixingRecipes(event);
-    cuttingRecipes(event);
     hauntingRecipes(event);
-    splashingRecipes(event);
     mechanicalCraftingRecipes(event);
-    pressingRecipes(event);
     compactingRecipes(event);
 
     ///// SEQUENCED ASSEMBLIES BECAUSE I SUCK AT CODING LMAO /////
@@ -291,7 +285,7 @@ function compactingRecipes(event) {
     });
 }
 
-function createFilling(event) {
+function fillingRecipes(event) {
     [
         // Stabilised Singularity Housing
         {
@@ -395,7 +389,7 @@ function mechanicalCraftingRecipes(event) {
     });
 }
 
-function createMixing(event) {
+function mixingRecipes(event) {
 	[
 		// Steel Ingot
 		{
@@ -417,7 +411,7 @@ function createMixing(event) {
 	}))
 }
 
-function createHaunting(event) {
+function hauntingRecipes(event) {
 	[
 		['minecraft:charcoal','minecraft:coal'],
 	].forEach((recipe) => {
