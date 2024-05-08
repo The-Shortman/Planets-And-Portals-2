@@ -1,12 +1,12 @@
 name = "Planets and Portals 2"
 author = "_Shortman"
-version = "dev 0.2.3"
+version = "dev 0.2.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e15f83076eb4fa70997de97184f58d1a136ecb692da7497b5a85c6b5ff4ebee2"
+hash = "fdad9783aaf658ac6ec69b1ae44a1b5e6dfcccb0f482adf57d2f07f3fba7ccb2"
 
 [versions]
 fabric = "0.15.11"

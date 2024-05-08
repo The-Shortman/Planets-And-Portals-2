@@ -1109,6 +1109,34 @@ file = "kubejs/README.txt"
 hash = "9c2e224068560b5942f4a0a9fe8a54fe7382dbc37c36043ab402a0ceecc259f6"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/calorite_pressurechamber.nbt"
+hash = "b7728c8f6b22ae77be12c623483ccaee5e912f4ec64b13528ce9702aac4ae626"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/certus_pressurechamber.nbt"
+hash = "0ed4a7c6e777f4a1ebe9a63e7ab4de1fe8127e393ac81a843dc686281e184c3a"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/desh_pressurechamber.nbt"
+hash = "08412da4056ad5d3798b4950f1149366b12590f658b0b644f0285dbe3a9fc089"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ostrum_pressurechamber.nbt"
+hash = "65d0fd9ba5bc27719373001e5579a247b81d9612b3e29b17a530ffbcb0354cc2"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/uraninite_pressurechamber.nbt"
+hash = "091694ed39f4a46b0f71a2e55a1eb99d7e5dfbea959869f80a80e346aa97c216"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/voidsifter_structure.nbt"
+hash = "58180fca0c14cfc7a6a95e54dc3c8af0583a0bfeb85b009a6a89f2902796bf73"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/yttrium_pressurechamber.nbt"
+hash = "f452f4287b4cfba1b734137dd16c1c89363da009e66c89fff33c56cb79bc7f8c"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -1234,7 +1262,11 @@ hash = "993a67c1b906597711655e92144a3d673737103d505cdb76f7872c70c223a46d"
 
 [[files]]
 file = "kubejs/client_scripts/client.js"
-hash = "f0a80f3aa1847cd9599b26f9441dab189799516ca4a88d1227ed8c2de934a9fd"
+hash = "6cf12446ee2777fa081890799cca1a92cfaa7da98a11e0670de377b52cadb05b"
+
+[[files]]
+file = "kubejs/client_scripts/ponders.js"
+hash = "c2838411a282969cbb85368d1c6509f12e4dd00f442e65b350a0f20d61d7372f"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1987,7 +2019,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "0c7d822e077bb22e533912c9b7c172d4d006fae9b3c67b9f7fc4b2220521c618"
+hash = "7eab4bd0edc266d05123e4d82b2883cb8ab68e75a44a40db95403a8540ea2dc3"
 metafile = true
 
 [[files]]
@@ -2293,6 +2325,11 @@ metafile = true
 [[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "abbbc1ca0b51d41d79d8e7ea4a7c2b051b1c22cc912f20873264cf6ecf5116b8"
+metafile = true
+
+[[files]]
+file = "mods/ponder.pw.toml"
+hash = "f192b19241ef95fb905a0145be3f5f1074efbd7861485bd58f7626bb0f40a476"
 metafile = true
 
 [[files]]

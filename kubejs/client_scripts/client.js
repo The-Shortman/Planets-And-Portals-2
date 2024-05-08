@@ -27,5 +27,6 @@ onEvent('item.tooltip', tooltip => {
 		'toms_storage:ts.inventory_hopper_basic',
 		'toms_storage:ts.level_emitter',
 		'toms_storage:ts.inventory_cable_connector_framed'
-	], 'Disabled - Use AE2 for more complex storage management')
+	], Text.of('Disabled - Use AE2 for more complex storage management').darkRed()
+	)
 })
