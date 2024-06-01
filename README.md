@@ -1,3 +1,3 @@
-# Typewryttr
+# Planets and Portals 2 (formerly Typewryttr)
 
-An in-dev modpack for Minecraft Fabric 1.18.2
+An deprecated incomplete modpack for Minecraft Fabric 1.18.2
